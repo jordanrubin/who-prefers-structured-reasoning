@@ -1,0 +1,59 @@
+{
+  "overall": {
+    "condition_a": {
+      "eval_count": 3,
+      "mean_total": 22.0,
+      "dimension_means": {
+        "cross_abstract_inference": 5.0,
+        "epistemic_stratification": 5.0,
+        "falsifiability_yield": 2.0,
+        "corpus_coverage": 5.0,
+        "assumption_surfacing": 3.0,
+        "decision_readiness": 2.0
+      }
+    },
+    "condition_c": {
+      "eval_count": 3,
+      "mean_total": 23.0,
+      "dimension_means": {
+        "cross_abstract_inference": 5.0,
+        "epistemic_stratification": 5.0,
+        "falsifiability_yield": 2.0,
+        "corpus_coverage": 4.0,
+        "assumption_surfacing": 4.0,
+        "decision_readiness": 3.0
+      }
+    }
+  },
+  "per_run": {
+    "run_4": {
+      "condition_a": {
+        "eval_count": 3,
+        "mean_total": 22.0,
+        "dimension_means": {
+          "cross_abstract_inference": 5.0,
+          "epistemic_stratification": 5.0,
+          "falsifiability_yield": 2.0,
+          "corpus_coverage": 5.0,
+          "assumption_surfacing": 3.0,
+          "decision_readiness": 2.0
+        }
+      },
+      "condition_c": {
+        "eval_count": 3,
+        "mean_total": 23.0,
+        "dimension_means": {
+          "cross_abstract_inference": 5.0,
+          "epistemic_stratification": 5.0,
+          "falsifiability_yield": 2.0,
+          "corpus_coverage": 4.0,
+          "assumption_surfacing": 4.0,
+          "decision_readiness": 3.0
+        }
+      }
+    }
+  },
+  "generated_by": "Codex (GPT-5)",
+  "source_type": "fresh_codex_judgment",
+  "scoring_method": "codex_metric_rubric_v1"
+}

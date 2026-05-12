@@ -1,0 +1,5616 @@
+{
+  "labels": [
+    "s7_A",
+    "s7_C",
+    "s59_A",
+    "s59_C",
+    "s101_A",
+    "s101_C",
+    "s173_A",
+    "s173_C",
+    "s23_A",
+    "s23_C"
+  ],
+  "pairs": {
+    "s7_A vs s7_C": {
+      "similarity": {
+        "cosine": 0.868,
+        "jaccard_unigram": 0.349,
+        "jaccard_bigram": 0.081,
+        "jaccard_trigram": 0.031
+      },
+      "citations": {
+        "count_a": 33,
+        "count_b": 55,
+        "shared": 21,
+        "a_only": 12,
+        "c_only": 34,
+        "jaccard": 0.313,
+        "density_a": 8.7,
+        "density_c": 11.9,
+        "top_a_only": [
+          "HSEP30",
+          "HSEP37",
+          "HSEP38",
+          "HSEP41",
+          "HSEP48",
+          "HSEP73",
+          "HSEP79",
+          "HSEP86",
+          "HSEP88",
+          "HSEP93"
+        ],
+        "top_c_only": [
+          "HSEP1",
+          "HSEP101",
+          "HSEP107",
+          "HSEP108",
+          "HSEP11",
+          "HSEP115",
+          "HSEP122",
+          "HSEP126",
+          "HSEP127",
+          "HSEP128"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 3797,
+          "sections": 14,
+          "lexical_diversity": 0.38,
+          "mean_sentence_length": 13.2
+        },
+        "c": {
+          "word_count": 4626,
+          "sections": 14,
+          "lexical_diversity": 0.349,
+          "mean_sentence_length": 15.6
+        },
+        "word_count_ratio": 1.22
+      },
+      "emphasis": {
+        "bold_count_a": 39,
+        "bold_count_c": 58,
+        "bold_jaccard": 0.09
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 110,
+          "causal_verbs": 18,
+          "modality": 10,
+          "uncertainty": 5,
+          "counterfactual": 4
+        },
+        "c": {
+          "thresholds": 83,
+          "causal_verbs": 12,
+          "modality": 6,
+          "uncertainty": 5,
+          "counterfactual": 9
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 15,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 27,
+        "claims_b": 18,
+        "novel_claims_a": 24,
+        "novel_claims_b": 18,
+        "novel_supported_a": 3,
+        "novel_supported_b": 5,
+        "novel_action_a": 10,
+        "novel_action_b": 6,
+        "cite_per_claim_a": 1.44,
+        "cite_per_claim_b": 4.11
+      }
+    },
+    "s7_A vs s59_A": {
+      "similarity": {
+        "cosine": 0.946,
+        "jaccard_unigram": 0.454,
+        "jaccard_bigram": 0.153,
+        "jaccard_trigram": 0.077
+      },
+      "citations": {
+        "count_a": 33,
+        "count_b": 34,
+        "shared": 21,
+        "a_only": 12,
+        "c_only": 13,
+        "jaccard": 0.457,
+        "density_a": 8.7,
+        "density_c": 9.6,
+        "top_a_only": [
+          "HSEP129",
+          "HSEP137",
+          "HSEP27",
+          "HSEP38",
+          "HSEP48",
+          "HSEP63",
+          "HSEP68",
+          "HSEP79",
+          "HSEP86",
+          "HSEP88"
+        ],
+        "top_c_only": [
+          "HSEP107",
+          "HSEP113",
+          "HSEP122",
+          "HSEP132",
+          "HSEP17",
+          "HSEP20",
+          "HSEP24",
+          "HSEP47",
+          "HSEP51",
+          "HSEP67"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 3797,
+          "sections": 14,
+          "lexical_diversity": 0.38,
+          "mean_sentence_length": 13.2
+        },
+        "c": {
+          "word_count": 3543,
+          "sections": 13,
+          "lexical_diversity": 0.384,
+          "mean_sentence_length": 13.8
+        },
+        "word_count_ratio": 0.93
+      },
+      "emphasis": {
+        "bold_count_a": 39,
+        "bold_count_c": 68,
+        "bold_jaccard": 0.103
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 110,
+          "causal_verbs": 18,
+          "modality": 10,
+          "uncertainty": 5,
+          "counterfactual": 4
+        },
+        "c": {
+          "thresholds": 102,
+          "causal_verbs": 8,
+          "modality": 12,
+          "uncertainty": 3,
+          "counterfactual": 2
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 14,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 27,
+        "claims_b": 18,
+        "novel_claims_a": 21,
+        "novel_claims_b": 14,
+        "novel_supported_a": 2,
+        "novel_supported_b": 1,
+        "novel_action_a": 9,
+        "novel_action_b": 10,
+        "cite_per_claim_a": 1.44,
+        "cite_per_claim_b": 2.61
+      }
+    },
+    "s7_A vs s59_C": {
+      "similarity": {
+        "cosine": 0.892,
+        "jaccard_unigram": 0.355,
+        "jaccard_bigram": 0.076,
+        "jaccard_trigram": 0.026
+      },
+      "citations": {
+        "count_a": 33,
+        "count_b": 45,
+        "shared": 22,
+        "a_only": 11,
+        "c_only": 23,
+        "jaccard": 0.393,
+        "density_a": 8.7,
+        "density_c": 10.0,
+        "top_a_only": [
+          "HSEP12",
+          "HSEP137",
+          "HSEP27",
+          "HSEP37",
+          "HSEP41",
+          "HSEP48",
+          "HSEP73",
+          "HSEP79",
+          "HSEP93",
+          "HSEP94"
+        ],
+        "top_c_only": [
+          "HSEP1",
+          "HSEP101",
+          "HSEP107",
+          "HSEP108",
+          "HSEP111",
+          "HSEP128",
+          "HSEP13",
+          "HSEP132",
+          "HSEP15",
+          "HSEP22"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 3797,
+          "sections": 14,
+          "lexical_diversity": 0.38,
+          "mean_sentence_length": 13.2
+        },
+        "c": {
+          "word_count": 4519,
+          "sections": 14,
+          "lexical_diversity": 0.345,
+          "mean_sentence_length": 17.4
+        },
+        "word_count_ratio": 1.19
+      },
+      "emphasis": {
+        "bold_count_a": 39,
+        "bold_count_c": 5,
+        "bold_jaccard": 0.023
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 110,
+          "causal_verbs": 18,
+          "modality": 10,
+          "uncertainty": 5,
+          "counterfactual": 4
+        },
+        "c": {
+          "thresholds": 65,
+          "causal_verbs": 13,
+          "modality": 3,
+          "uncertainty": 13,
+          "counterfactual": 7
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 15,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 27,
+        "claims_b": 14,
+        "novel_claims_a": 26,
+        "novel_claims_b": 14,
+        "novel_supported_a": 4,
+        "novel_supported_b": 4,
+        "novel_action_a": 10,
+        "novel_action_b": 3,
+        "cite_per_claim_a": 1.44,
+        "cite_per_claim_b": 5.36
+      }
+    },
+    "s7_A vs s101_A": {
+      "similarity": {
+        "cosine": 0.959,
+        "jaccard_unigram": 0.461,
+        "jaccard_bigram": 0.15,
+        "jaccard_trigram": 0.075
+      },
+      "citations": {
+        "count_a": 33,
+        "count_b": 41,
+        "shared": 24,
+        "a_only": 9,
+        "c_only": 17,
+        "jaccard": 0.48,
+        "density_a": 8.7,
+        "density_c": 9.7,
+        "top_a_only": [
+          "HSEP116",
+          "HSEP27",
+          "HSEP38",
+          "HSEP41",
+          "HSEP48",
+          "HSEP68",
+          "HSEP86",
+          "HSEP88",
+          "HSEP96"
+        ],
+        "top_c_only": [
+          "HSEP107",
+          "HSEP11",
+          "HSEP113",
+          "HSEP132",
+          "HSEP134",
+          "HSEP17",
+          "HSEP26",
+          "HSEP32",
+          "HSEP33",
+          "HSEP47"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 3797,
+          "sections": 14,
+          "lexical_diversity": 0.38,
+          "mean_sentence_length": 13.2
+        },
+        "c": {
+          "word_count": 4232,
+          "sections": 16,
+          "lexical_diversity": 0.378,
+          "mean_sentence_length": 13.9
+        },
+        "word_count_ratio": 1.11
+      },
+      "emphasis": {
+        "bold_count_a": 39,
+        "bold_count_c": 48,
+        "bold_jaccard": 0.074
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 110,
+          "causal_verbs": 18,
+          "modality": 10,
+          "uncertainty": 5,
+          "counterfactual": 4
+        },
+        "c": {
+          "thresholds": 110,
+          "causal_verbs": 9,
+          "modality": 12,
+          "uncertainty": 6,
+          "counterfactual": 3
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 17,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 27,
+        "claims_b": 20,
+        "novel_claims_a": 19,
+        "novel_claims_b": 16,
+        "novel_supported_a": 3,
+        "novel_supported_b": 1,
+        "novel_action_a": 10,
+        "novel_action_b": 10,
+        "cite_per_claim_a": 1.44,
+        "cite_per_claim_b": 2.95
+      }
+    },
+    "s7_A vs s101_C": {
+      "similarity": {
+        "cosine": 0.903,
+        "jaccard_unigram": 0.381,
+        "jaccard_bigram": 0.093,
+        "jaccard_trigram": 0.039
+      },
+      "citations": {
+        "count_a": 33,
+        "count_b": 35,
+        "shared": 17,
+        "a_only": 16,
+        "c_only": 18,
+        "jaccard": 0.333,
+        "density_a": 8.7,
+        "density_c": 7.7,
+        "top_a_only": [
+          "HSEP116",
+          "HSEP118",
+          "HSEP12",
+          "HSEP129",
+          "HSEP137",
+          "HSEP27",
+          "HSEP30",
+          "HSEP37",
+          "HSEP38",
+          "HSEP41"
+        ],
+        "top_c_only": [
+          "HSEP1",
+          "HSEP101",
+          "HSEP107",
+          "HSEP119",
+          "HSEP128",
+          "HSEP14",
+          "HSEP16",
+          "HSEP17",
+          "HSEP19",
+          "HSEP22"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 3797,
+          "sections": 14,
+          "lexical_diversity": 0.38,
+          "mean_sentence_length": 13.2
+        },
+        "c": {
+          "word_count": 4537,
+          "sections": 14,
+          "lexical_diversity": 0.352,
+          "mean_sentence_length": 14.5
+        },
+        "word_count_ratio": 1.19
+      },
+      "emphasis": {
+        "bold_count_a": 39,
+        "bold_count_c": 39,
+        "bold_jaccard": 0.04
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 110,
+          "causal_verbs": 18,
+          "modality": 10,
+          "uncertainty": 5,
+          "counterfactual": 4
+        },
+        "c": {
+          "thresholds": 83,
+          "causal_verbs": 13,
+          "modality": 18,
+          "uncertainty": 7,
+          "counterfactual": 6
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 15,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 27,
+        "claims_b": 26,
+        "novel_claims_a": 21,
+        "novel_claims_b": 21,
+        "novel_supported_a": 4,
+        "novel_supported_b": 6,
+        "novel_action_a": 10,
+        "novel_action_b": 14,
+        "cite_per_claim_a": 1.44,
+        "cite_per_claim_b": 2.31
+      }
+    },
+    "s7_A vs s173_A": {
+      "similarity": {
+        "cosine": 0.954,
+        "jaccard_unigram": 0.436,
+        "jaccard_bigram": 0.136,
+        "jaccard_trigram": 0.064
+      },
+      "citations": {
+        "count_a": 33,
+        "count_b": 35,
+        "shared": 25,
+        "a_only": 8,
+        "c_only": 10,
+        "jaccard": 0.581,
+        "density_a": 8.7,
+        "density_c": 9.0,
+        "top_a_only": [
+          "HSEP116",
+          "HSEP37",
+          "HSEP41",
+          "HSEP48",
+          "HSEP73",
+          "HSEP79",
+          "HSEP86",
+          "HSEP93"
+        ],
+        "top_c_only": [
+          "HSEP1",
+          "HSEP107",
+          "HSEP110",
+          "HSEP121",
+          "HSEP132",
+          "HSEP138",
+          "HSEP21",
+          "HSEP22",
+          "HSEP49",
+          "HSEP90"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 3797,
+          "sections": 14,
+          "lexical_diversity": 0.38,
+          "mean_sentence_length": 13.2
+        },
+        "c": {
+          "word_count": 3876,
+          "sections": 15,
+          "lexical_diversity": 0.391,
+          "mean_sentence_length": 13.2
+        },
+        "word_count_ratio": 1.02
+      },
+      "emphasis": {
+        "bold_count_a": 39,
+        "bold_count_c": 41,
+        "bold_jaccard": 0.0
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 110,
+          "causal_verbs": 18,
+          "modality": 10,
+          "uncertainty": 5,
+          "counterfactual": 4
+        },
+        "c": {
+          "thresholds": 116,
+          "causal_verbs": 10,
+          "modality": 7,
+          "uncertainty": 4,
+          "counterfactual": 6
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 16,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 27,
+        "claims_b": 15,
+        "novel_claims_a": 20,
+        "novel_claims_b": 10,
+        "novel_supported_a": 2,
+        "novel_supported_b": 3,
+        "novel_action_a": 10,
+        "novel_action_b": 6,
+        "cite_per_claim_a": 1.44,
+        "cite_per_claim_b": 2.67
+      }
+    },
+    "s7_A vs s173_C": {
+      "similarity": {
+        "cosine": 0.911,
+        "jaccard_unigram": 0.391,
+        "jaccard_bigram": 0.106,
+        "jaccard_trigram": 0.046
+      },
+      "citations": {
+        "count_a": 33,
+        "count_b": 33,
+        "shared": 19,
+        "a_only": 14,
+        "c_only": 14,
+        "jaccard": 0.404,
+        "density_a": 8.7,
+        "density_c": 7.2,
+        "top_a_only": [
+          "HSEP116",
+          "HSEP118",
+          "HSEP12",
+          "HSEP129",
+          "HSEP27",
+          "HSEP30",
+          "HSEP37",
+          "HSEP38",
+          "HSEP43",
+          "HSEP48"
+        ],
+        "top_c_only": [
+          "HSEP101",
+          "HSEP105",
+          "HSEP107",
+          "HSEP108",
+          "HSEP117",
+          "HSEP16",
+          "HSEP17",
+          "HSEP22",
+          "HSEP31",
+          "HSEP40"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 3797,
+          "sections": 14,
+          "lexical_diversity": 0.38,
+          "mean_sentence_length": 13.2
+        },
+        "c": {
+          "word_count": 4573,
+          "sections": 13,
+          "lexical_diversity": 0.347,
+          "mean_sentence_length": 14.1
+        },
+        "word_count_ratio": 1.2
+      },
+      "emphasis": {
+        "bold_count_a": 39,
+        "bold_count_c": 40,
+        "bold_jaccard": 0.082
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 110,
+          "causal_verbs": 18,
+          "modality": 10,
+          "uncertainty": 5,
+          "counterfactual": 4
+        },
+        "c": {
+          "thresholds": 100,
+          "causal_verbs": 13,
+          "modality": 10,
+          "uncertainty": 7,
+          "counterfactual": 5
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 14,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 27,
+        "claims_b": 19,
+        "novel_claims_a": 21,
+        "novel_claims_b": 18,
+        "novel_supported_a": 3,
+        "novel_supported_b": 4,
+        "novel_action_a": 10,
+        "novel_action_b": 9,
+        "cite_per_claim_a": 1.44,
+        "cite_per_claim_b": 2.63
+      }
+    },
+    "s7_A vs s23_A": {
+      "similarity": {
+        "cosine": 0.952,
+        "jaccard_unigram": 0.463,
+        "jaccard_bigram": 0.151,
+        "jaccard_trigram": 0.076
+      },
+      "citations": {
+        "count_a": 33,
+        "count_b": 25,
+        "shared": 20,
+        "a_only": 13,
+        "c_only": 5,
+        "jaccard": 0.526,
+        "density_a": 8.7,
+        "density_c": 7.3,
+        "top_a_only": [
+          "HSEP116",
+          "HSEP124",
+          "HSEP129",
+          "HSEP37",
+          "HSEP41",
+          "HSEP48",
+          "HSEP63",
+          "HSEP68",
+          "HSEP73",
+          "HSEP79"
+        ],
+        "top_c_only": [
+          "HSEP11",
+          "HSEP132",
+          "HSEP21",
+          "HSEP74",
+          "HSEP98"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 3797,
+          "sections": 14,
+          "lexical_diversity": 0.38,
+          "mean_sentence_length": 13.2
+        },
+        "c": {
+          "word_count": 3405,
+          "sections": 12,
+          "lexical_diversity": 0.39,
+          "mean_sentence_length": 14.1
+        },
+        "word_count_ratio": 0.9
+      },
+      "emphasis": {
+        "bold_count_a": 39,
+        "bold_count_c": 23,
+        "bold_jaccard": 0.0
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 110,
+          "causal_verbs": 18,
+          "modality": 10,
+          "uncertainty": 5,
+          "counterfactual": 4
+        },
+        "c": {
+          "thresholds": 92,
+          "causal_verbs": 10,
+          "modality": 7,
+          "uncertainty": 6,
+          "counterfactual": 4
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 13,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 27,
+        "claims_b": 17,
+        "novel_claims_a": 19,
+        "novel_claims_b": 10,
+        "novel_supported_a": 2,
+        "novel_supported_b": 3,
+        "novel_action_a": 9,
+        "novel_action_b": 6,
+        "cite_per_claim_a": 1.44,
+        "cite_per_claim_b": 1.76
+      }
+    },
+    "s7_A vs s23_C": {
+      "similarity": {
+        "cosine": 0.885,
+        "jaccard_unigram": 0.367,
+        "jaccard_bigram": 0.088,
+        "jaccard_trigram": 0.037
+      },
+      "citations": {
+        "count_a": 33,
+        "count_b": 39,
+        "shared": 19,
+        "a_only": 14,
+        "c_only": 20,
+        "jaccard": 0.358,
+        "density_a": 8.7,
+        "density_c": 10.7,
+        "top_a_only": [
+          "HSEP100",
+          "HSEP102",
+          "HSEP12",
+          "HSEP27",
+          "HSEP3",
+          "HSEP30",
+          "HSEP37",
+          "HSEP41",
+          "HSEP48",
+          "HSEP73"
+        ],
+        "top_c_only": [
+          "HSEP1",
+          "HSEP101",
+          "HSEP103",
+          "HSEP107",
+          "HSEP11",
+          "HSEP110",
+          "HSEP112",
+          "HSEP128",
+          "HSEP14",
+          "HSEP16"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 3797,
+          "sections": 14,
+          "lexical_diversity": 0.38,
+          "mean_sentence_length": 13.2
+        },
+        "c": {
+          "word_count": 3638,
+          "sections": 11,
+          "lexical_diversity": 0.384,
+          "mean_sentence_length": 14.9
+        },
+        "word_count_ratio": 0.96
+      },
+      "emphasis": {
+        "bold_count_a": 39,
+        "bold_count_c": 33,
+        "bold_jaccard": 0.091
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 110,
+          "causal_verbs": 18,
+          "modality": 10,
+          "uncertainty": 5,
+          "counterfactual": 4
+        },
+        "c": {
+          "thresholds": 68,
+          "causal_verbs": 9,
+          "modality": 11,
+          "uncertainty": 7,
+          "counterfactual": 2
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 12,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 27,
+        "claims_b": 19,
+        "novel_claims_a": 26,
+        "novel_claims_b": 19,
+        "novel_supported_a": 4,
+        "novel_supported_b": 3,
+        "novel_action_a": 10,
+        "novel_action_b": 10,
+        "cite_per_claim_a": 1.44,
+        "cite_per_claim_b": 2.68
+      }
+    },
+    "s7_C vs s59_A": {
+      "similarity": {
+        "cosine": 0.905,
+        "jaccard_unigram": 0.341,
+        "jaccard_bigram": 0.082,
+        "jaccard_trigram": 0.032
+      },
+      "citations": {
+        "count_a": 55,
+        "count_b": 34,
+        "shared": 22,
+        "a_only": 33,
+        "c_only": 12,
+        "jaccard": 0.328,
+        "density_a": 11.9,
+        "density_c": 9.6,
+        "top_a_only": [
+          "HSEP1",
+          "HSEP101",
+          "HSEP108",
+          "HSEP11",
+          "HSEP115",
+          "HSEP126",
+          "HSEP127",
+          "HSEP128",
+          "HSEP129",
+          "HSEP13"
+        ],
+        "top_c_only": [
+          "HSEP113",
+          "HSEP20",
+          "HSEP24",
+          "HSEP30",
+          "HSEP37",
+          "HSEP41",
+          "HSEP51",
+          "HSEP67",
+          "HSEP73",
+          "HSEP77"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4626,
+          "sections": 14,
+          "lexical_diversity": 0.349,
+          "mean_sentence_length": 15.6
+        },
+        "c": {
+          "word_count": 3543,
+          "sections": 13,
+          "lexical_diversity": 0.384,
+          "mean_sentence_length": 13.8
+        },
+        "word_count_ratio": 0.77
+      },
+      "emphasis": {
+        "bold_count_a": 58,
+        "bold_count_c": 68,
+        "bold_jaccard": 0.178
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 83,
+          "causal_verbs": 12,
+          "modality": 6,
+          "uncertainty": 5,
+          "counterfactual": 9
+        },
+        "c": {
+          "thresholds": 102,
+          "causal_verbs": 8,
+          "modality": 12,
+          "uncertainty": 3,
+          "counterfactual": 2
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 14,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 18,
+        "claims_b": 18,
+        "novel_claims_a": 18,
+        "novel_claims_b": 15,
+        "novel_supported_a": 5,
+        "novel_supported_b": 1,
+        "novel_action_a": 6,
+        "novel_action_b": 11,
+        "cite_per_claim_a": 4.11,
+        "cite_per_claim_b": 2.61
+      }
+    },
+    "s7_C vs s59_C": {
+      "similarity": {
+        "cosine": 0.943,
+        "jaccard_unigram": 0.389,
+        "jaccard_bigram": 0.087,
+        "jaccard_trigram": 0.032
+      },
+      "citations": {
+        "count_a": 55,
+        "count_b": 45,
+        "shared": 33,
+        "a_only": 22,
+        "c_only": 12,
+        "jaccard": 0.493,
+        "density_a": 11.9,
+        "density_c": 10.0,
+        "top_a_only": [
+          "HSEP11",
+          "HSEP115",
+          "HSEP12",
+          "HSEP122",
+          "HSEP126",
+          "HSEP127",
+          "HSEP134",
+          "HSEP135",
+          "HSEP137",
+          "HSEP17"
+        ],
+        "top_c_only": [
+          "HSEP111",
+          "HSEP22",
+          "HSEP30",
+          "HSEP38",
+          "HSEP46",
+          "HSEP75",
+          "HSEP76",
+          "HSEP82",
+          "HSEP86",
+          "HSEP88"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4626,
+          "sections": 14,
+          "lexical_diversity": 0.349,
+          "mean_sentence_length": 15.6
+        },
+        "c": {
+          "word_count": 4519,
+          "sections": 14,
+          "lexical_diversity": 0.345,
+          "mean_sentence_length": 17.4
+        },
+        "word_count_ratio": 0.98
+      },
+      "emphasis": {
+        "bold_count_a": 58,
+        "bold_count_c": 5,
+        "bold_jaccard": 0.016
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 83,
+          "causal_verbs": 12,
+          "modality": 6,
+          "uncertainty": 5,
+          "counterfactual": 9
+        },
+        "c": {
+          "thresholds": 65,
+          "causal_verbs": 13,
+          "modality": 3,
+          "uncertainty": 13,
+          "counterfactual": 7
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 15,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 18,
+        "claims_b": 14,
+        "novel_claims_a": 18,
+        "novel_claims_b": 14,
+        "novel_supported_a": 5,
+        "novel_supported_b": 4,
+        "novel_action_a": 6,
+        "novel_action_b": 3,
+        "cite_per_claim_a": 4.11,
+        "cite_per_claim_b": 5.36
+      }
+    },
+    "s7_C vs s101_A": {
+      "similarity": {
+        "cosine": 0.875,
+        "jaccard_unigram": 0.372,
+        "jaccard_bigram": 0.094,
+        "jaccard_trigram": 0.037
+      },
+      "citations": {
+        "count_a": 55,
+        "count_b": 41,
+        "shared": 27,
+        "a_only": 28,
+        "c_only": 14,
+        "jaccard": 0.391,
+        "density_a": 11.9,
+        "density_c": 9.7,
+        "top_a_only": [
+          "HSEP1",
+          "HSEP101",
+          "HSEP108",
+          "HSEP115",
+          "HSEP116",
+          "HSEP122",
+          "HSEP126",
+          "HSEP127",
+          "HSEP128",
+          "HSEP13"
+        ],
+        "top_c_only": [
+          "HSEP113",
+          "HSEP30",
+          "HSEP33",
+          "HSEP37",
+          "HSEP62",
+          "HSEP67",
+          "HSEP73",
+          "HSEP77",
+          "HSEP79",
+          "HSEP82"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4626,
+          "sections": 14,
+          "lexical_diversity": 0.349,
+          "mean_sentence_length": 15.6
+        },
+        "c": {
+          "word_count": 4232,
+          "sections": 16,
+          "lexical_diversity": 0.378,
+          "mean_sentence_length": 13.9
+        },
+        "word_count_ratio": 0.91
+      },
+      "emphasis": {
+        "bold_count_a": 58,
+        "bold_count_c": 48,
+        "bold_jaccard": 0.071
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 83,
+          "causal_verbs": 12,
+          "modality": 6,
+          "uncertainty": 5,
+          "counterfactual": 9
+        },
+        "c": {
+          "thresholds": 110,
+          "causal_verbs": 9,
+          "modality": 12,
+          "uncertainty": 6,
+          "counterfactual": 3
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 17,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 18,
+        "claims_b": 20,
+        "novel_claims_a": 18,
+        "novel_claims_b": 18,
+        "novel_supported_a": 5,
+        "novel_supported_b": 0,
+        "novel_action_a": 6,
+        "novel_action_b": 10,
+        "cite_per_claim_a": 4.11,
+        "cite_per_claim_b": 2.95
+      }
+    },
+    "s7_C vs s101_C": {
+      "similarity": {
+        "cosine": 0.948,
+        "jaccard_unigram": 0.39,
+        "jaccard_bigram": 0.102,
+        "jaccard_trigram": 0.041
+      },
+      "citations": {
+        "count_a": 55,
+        "count_b": 35,
+        "shared": 26,
+        "a_only": 29,
+        "c_only": 9,
+        "jaccard": 0.406,
+        "density_a": 11.9,
+        "density_c": 7.7,
+        "top_a_only": [
+          "HSEP108",
+          "HSEP11",
+          "HSEP115",
+          "HSEP116",
+          "HSEP118",
+          "HSEP12",
+          "HSEP122",
+          "HSEP126",
+          "HSEP127",
+          "HSEP129"
+        ],
+        "top_c_only": [
+          "HSEP119",
+          "HSEP14",
+          "HSEP16",
+          "HSEP22",
+          "HSEP33",
+          "HSEP67",
+          "HSEP82",
+          "HSEP88",
+          "HSEP93"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4626,
+          "sections": 14,
+          "lexical_diversity": 0.349,
+          "mean_sentence_length": 15.6
+        },
+        "c": {
+          "word_count": 4537,
+          "sections": 14,
+          "lexical_diversity": 0.352,
+          "mean_sentence_length": 14.5
+        },
+        "word_count_ratio": 0.98
+      },
+      "emphasis": {
+        "bold_count_a": 58,
+        "bold_count_c": 39,
+        "bold_jaccard": 0.054
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 83,
+          "causal_verbs": 12,
+          "modality": 6,
+          "uncertainty": 5,
+          "counterfactual": 9
+        },
+        "c": {
+          "thresholds": 83,
+          "causal_verbs": 13,
+          "modality": 18,
+          "uncertainty": 7,
+          "counterfactual": 6
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 15,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 18,
+        "claims_b": 26,
+        "novel_claims_a": 17,
+        "novel_claims_b": 24,
+        "novel_supported_a": 4,
+        "novel_supported_b": 7,
+        "novel_action_a": 6,
+        "novel_action_b": 14,
+        "cite_per_claim_a": 4.11,
+        "cite_per_claim_b": 2.31
+      }
+    },
+    "s7_C vs s173_A": {
+      "similarity": {
+        "cosine": 0.888,
+        "jaccard_unigram": 0.363,
+        "jaccard_bigram": 0.09,
+        "jaccard_trigram": 0.035
+      },
+      "citations": {
+        "count_a": 55,
+        "count_b": 35,
+        "shared": 25,
+        "a_only": 30,
+        "c_only": 10,
+        "jaccard": 0.385,
+        "density_a": 11.9,
+        "density_c": 9.0,
+        "top_a_only": [
+          "HSEP101",
+          "HSEP108",
+          "HSEP11",
+          "HSEP115",
+          "HSEP116",
+          "HSEP122",
+          "HSEP126",
+          "HSEP127",
+          "HSEP128",
+          "HSEP13"
+        ],
+        "top_c_only": [
+          "HSEP110",
+          "HSEP121",
+          "HSEP138",
+          "HSEP22",
+          "HSEP30",
+          "HSEP38",
+          "HSEP88",
+          "HSEP90",
+          "HSEP94",
+          "HSEP96"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4626,
+          "sections": 14,
+          "lexical_diversity": 0.349,
+          "mean_sentence_length": 15.6
+        },
+        "c": {
+          "word_count": 3876,
+          "sections": 15,
+          "lexical_diversity": 0.391,
+          "mean_sentence_length": 13.2
+        },
+        "word_count_ratio": 0.84
+      },
+      "emphasis": {
+        "bold_count_a": 58,
+        "bold_count_c": 41,
+        "bold_jaccard": 0.0
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 83,
+          "causal_verbs": 12,
+          "modality": 6,
+          "uncertainty": 5,
+          "counterfactual": 9
+        },
+        "c": {
+          "thresholds": 116,
+          "causal_verbs": 10,
+          "modality": 7,
+          "uncertainty": 4,
+          "counterfactual": 6
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 16,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 18,
+        "claims_b": 15,
+        "novel_claims_a": 18,
+        "novel_claims_b": 14,
+        "novel_supported_a": 5,
+        "novel_supported_b": 3,
+        "novel_action_a": 6,
+        "novel_action_b": 6,
+        "cite_per_claim_a": 4.11,
+        "cite_per_claim_b": 2.67
+      }
+    },
+    "s7_C vs s173_C": {
+      "similarity": {
+        "cosine": 0.943,
+        "jaccard_unigram": 0.376,
+        "jaccard_bigram": 0.094,
+        "jaccard_trigram": 0.035
+      },
+      "citations": {
+        "count_a": 55,
+        "count_b": 33,
+        "shared": 22,
+        "a_only": 33,
+        "c_only": 11,
+        "jaccard": 0.333,
+        "density_a": 11.9,
+        "density_c": 7.2,
+        "top_a_only": [
+          "HSEP1",
+          "HSEP11",
+          "HSEP115",
+          "HSEP116",
+          "HSEP118",
+          "HSEP12",
+          "HSEP122",
+          "HSEP126",
+          "HSEP127",
+          "HSEP128"
+        ],
+        "top_c_only": [
+          "HSEP105",
+          "HSEP117",
+          "HSEP16",
+          "HSEP22",
+          "HSEP41",
+          "HSEP84",
+          "HSEP86",
+          "HSEP88",
+          "HSEP89",
+          "HSEP93"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4626,
+          "sections": 14,
+          "lexical_diversity": 0.349,
+          "mean_sentence_length": 15.6
+        },
+        "c": {
+          "word_count": 4573,
+          "sections": 13,
+          "lexical_diversity": 0.347,
+          "mean_sentence_length": 14.1
+        },
+        "word_count_ratio": 0.99
+      },
+      "emphasis": {
+        "bold_count_a": 58,
+        "bold_count_c": 40,
+        "bold_jaccard": 0.126
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 83,
+          "causal_verbs": 12,
+          "modality": 6,
+          "uncertainty": 5,
+          "counterfactual": 9
+        },
+        "c": {
+          "thresholds": 100,
+          "causal_verbs": 13,
+          "modality": 10,
+          "uncertainty": 7,
+          "counterfactual": 5
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 14,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 18,
+        "claims_b": 19,
+        "novel_claims_a": 17,
+        "novel_claims_b": 19,
+        "novel_supported_a": 4,
+        "novel_supported_b": 4,
+        "novel_action_a": 6,
+        "novel_action_b": 9,
+        "cite_per_claim_a": 4.11,
+        "cite_per_claim_b": 2.63
+      }
+    },
+    "s7_C vs s23_A": {
+      "similarity": {
+        "cosine": 0.896,
+        "jaccard_unigram": 0.355,
+        "jaccard_bigram": 0.083,
+        "jaccard_trigram": 0.028
+      },
+      "citations": {
+        "count_a": 55,
+        "count_b": 25,
+        "shared": 20,
+        "a_only": 35,
+        "c_only": 5,
+        "jaccard": 0.333,
+        "density_a": 11.9,
+        "density_c": 7.3,
+        "top_a_only": [
+          "HSEP1",
+          "HSEP101",
+          "HSEP107",
+          "HSEP108",
+          "HSEP115",
+          "HSEP116",
+          "HSEP122",
+          "HSEP124",
+          "HSEP126",
+          "HSEP127"
+        ],
+        "top_c_only": [
+          "HSEP30",
+          "HSEP38",
+          "HSEP74",
+          "HSEP93",
+          "HSEP94"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4626,
+          "sections": 14,
+          "lexical_diversity": 0.349,
+          "mean_sentence_length": 15.6
+        },
+        "c": {
+          "word_count": 3405,
+          "sections": 12,
+          "lexical_diversity": 0.39,
+          "mean_sentence_length": 14.1
+        },
+        "word_count_ratio": 0.74
+      },
+      "emphasis": {
+        "bold_count_a": 58,
+        "bold_count_c": 23,
+        "bold_jaccard": 0.0
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 83,
+          "causal_verbs": 12,
+          "modality": 6,
+          "uncertainty": 5,
+          "counterfactual": 9
+        },
+        "c": {
+          "thresholds": 92,
+          "causal_verbs": 10,
+          "modality": 7,
+          "uncertainty": 6,
+          "counterfactual": 4
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 13,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 18,
+        "claims_b": 17,
+        "novel_claims_a": 18,
+        "novel_claims_b": 14,
+        "novel_supported_a": 5,
+        "novel_supported_b": 3,
+        "novel_action_a": 6,
+        "novel_action_b": 7,
+        "cite_per_claim_a": 4.11,
+        "cite_per_claim_b": 1.76
+      }
+    },
+    "s7_C vs s23_C": {
+      "similarity": {
+        "cosine": 0.946,
+        "jaccard_unigram": 0.378,
+        "jaccard_bigram": 0.096,
+        "jaccard_trigram": 0.036
+      },
+      "citations": {
+        "count_a": 55,
+        "count_b": 39,
+        "shared": 27,
+        "a_only": 28,
+        "c_only": 12,
+        "jaccard": 0.403,
+        "density_a": 11.9,
+        "density_c": 10.7,
+        "top_a_only": [
+          "HSEP100",
+          "HSEP102",
+          "HSEP108",
+          "HSEP115",
+          "HSEP12",
+          "HSEP122",
+          "HSEP126",
+          "HSEP127",
+          "HSEP13",
+          "HSEP132"
+        ],
+        "top_c_only": [
+          "HSEP103",
+          "HSEP110",
+          "HSEP112",
+          "HSEP14",
+          "HSEP16",
+          "HSEP38",
+          "HSEP8",
+          "HSEP88",
+          "HSEP89",
+          "HSEP91"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4626,
+          "sections": 14,
+          "lexical_diversity": 0.349,
+          "mean_sentence_length": 15.6
+        },
+        "c": {
+          "word_count": 3638,
+          "sections": 11,
+          "lexical_diversity": 0.384,
+          "mean_sentence_length": 14.9
+        },
+        "word_count_ratio": 0.79
+      },
+      "emphasis": {
+        "bold_count_a": 58,
+        "bold_count_c": 33,
+        "bold_jaccard": 0.096
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 83,
+          "causal_verbs": 12,
+          "modality": 6,
+          "uncertainty": 5,
+          "counterfactual": 9
+        },
+        "c": {
+          "thresholds": 68,
+          "causal_verbs": 9,
+          "modality": 11,
+          "uncertainty": 7,
+          "counterfactual": 2
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 12,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 18,
+        "claims_b": 19,
+        "novel_claims_a": 18,
+        "novel_claims_b": 18,
+        "novel_supported_a": 5,
+        "novel_supported_b": 3,
+        "novel_action_a": 6,
+        "novel_action_b": 10,
+        "cite_per_claim_a": 4.11,
+        "cite_per_claim_b": 2.68
+      }
+    },
+    "s59_A vs s59_C": {
+      "similarity": {
+        "cosine": 0.913,
+        "jaccard_unigram": 0.322,
+        "jaccard_bigram": 0.073,
+        "jaccard_trigram": 0.027
+      },
+      "citations": {
+        "count_a": 34,
+        "count_b": 45,
+        "shared": 19,
+        "a_only": 15,
+        "c_only": 26,
+        "jaccard": 0.317,
+        "density_a": 9.6,
+        "density_c": 10.0,
+        "top_a_only": [
+          "HSEP113",
+          "HSEP12",
+          "HSEP122",
+          "HSEP17",
+          "HSEP20",
+          "HSEP24",
+          "HSEP37",
+          "HSEP41",
+          "HSEP47",
+          "HSEP51"
+        ],
+        "top_c_only": [
+          "HSEP1",
+          "HSEP101",
+          "HSEP108",
+          "HSEP111",
+          "HSEP128",
+          "HSEP129",
+          "HSEP13",
+          "HSEP15",
+          "HSEP22",
+          "HSEP31"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 3543,
+          "sections": 13,
+          "lexical_diversity": 0.384,
+          "mean_sentence_length": 13.8
+        },
+        "c": {
+          "word_count": 4519,
+          "sections": 14,
+          "lexical_diversity": 0.345,
+          "mean_sentence_length": 17.4
+        },
+        "word_count_ratio": 1.28
+      },
+      "emphasis": {
+        "bold_count_a": 68,
+        "bold_count_c": 5,
+        "bold_jaccard": 0.028
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 102,
+          "causal_verbs": 8,
+          "modality": 12,
+          "uncertainty": 3,
+          "counterfactual": 2
+        },
+        "c": {
+          "thresholds": 65,
+          "causal_verbs": 13,
+          "modality": 3,
+          "uncertainty": 13,
+          "counterfactual": 7
+        }
+      },
+      "section_alignment": {
+        "headings_a": 14,
+        "headings_b": 15,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.714,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 18,
+        "claims_b": 14,
+        "novel_claims_a": 18,
+        "novel_claims_b": 13,
+        "novel_supported_a": 2,
+        "novel_supported_b": 4,
+        "novel_action_a": 12,
+        "novel_action_b": 3,
+        "cite_per_claim_a": 2.61,
+        "cite_per_claim_b": 5.36
+      }
+    },
+    "s59_A vs s101_A": {
+      "similarity": {
+        "cosine": 0.948,
+        "jaccard_unigram": 0.446,
+        "jaccard_bigram": 0.152,
+        "jaccard_trigram": 0.078
+      },
+      "citations": {
+        "count_a": 34,
+        "count_b": 41,
+        "shared": 27,
+        "a_only": 7,
+        "c_only": 14,
+        "jaccard": 0.562,
+        "density_a": 9.6,
+        "density_c": 9.7,
+        "top_a_only": [
+          "HSEP116",
+          "HSEP122",
+          "HSEP20",
+          "HSEP24",
+          "HSEP41",
+          "HSEP51",
+          "HSEP92"
+        ],
+        "top_c_only": [
+          "HSEP11",
+          "HSEP129",
+          "HSEP134",
+          "HSEP137",
+          "HSEP26",
+          "HSEP32",
+          "HSEP33",
+          "HSEP49",
+          "HSEP62",
+          "HSEP63"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 3543,
+          "sections": 13,
+          "lexical_diversity": 0.384,
+          "mean_sentence_length": 13.8
+        },
+        "c": {
+          "word_count": 4232,
+          "sections": 16,
+          "lexical_diversity": 0.378,
+          "mean_sentence_length": 13.9
+        },
+        "word_count_ratio": 1.19
+      },
+      "emphasis": {
+        "bold_count_a": 68,
+        "bold_count_c": 48,
+        "bold_jaccard": 0.064
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 102,
+          "causal_verbs": 8,
+          "modality": 12,
+          "uncertainty": 3,
+          "counterfactual": 2
+        },
+        "c": {
+          "thresholds": 110,
+          "causal_verbs": 9,
+          "modality": 12,
+          "uncertainty": 6,
+          "counterfactual": 3
+        }
+      },
+      "section_alignment": {
+        "headings_a": 14,
+        "headings_b": 17,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.714,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 18,
+        "claims_b": 20,
+        "novel_claims_a": 12,
+        "novel_claims_b": 15,
+        "novel_supported_a": 1,
+        "novel_supported_b": 2,
+        "novel_action_a": 10,
+        "novel_action_b": 10,
+        "cite_per_claim_a": 2.61,
+        "cite_per_claim_b": 2.95
+      }
+    },
+    "s59_A vs s101_C": {
+      "similarity": {
+        "cosine": 0.933,
+        "jaccard_unigram": 0.377,
+        "jaccard_bigram": 0.105,
+        "jaccard_trigram": 0.046
+      },
+      "citations": {
+        "count_a": 34,
+        "count_b": 35,
+        "shared": 17,
+        "a_only": 17,
+        "c_only": 18,
+        "jaccard": 0.327,
+        "density_a": 9.6,
+        "density_c": 7.7,
+        "top_a_only": [
+          "HSEP113",
+          "HSEP116",
+          "HSEP118",
+          "HSEP12",
+          "HSEP122",
+          "HSEP132",
+          "HSEP20",
+          "HSEP24",
+          "HSEP30",
+          "HSEP37"
+        ],
+        "top_c_only": [
+          "HSEP1",
+          "HSEP101",
+          "HSEP119",
+          "HSEP128",
+          "HSEP14",
+          "HSEP16",
+          "HSEP19",
+          "HSEP22",
+          "HSEP31",
+          "HSEP33"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 3543,
+          "sections": 13,
+          "lexical_diversity": 0.384,
+          "mean_sentence_length": 13.8
+        },
+        "c": {
+          "word_count": 4537,
+          "sections": 14,
+          "lexical_diversity": 0.352,
+          "mean_sentence_length": 14.5
+        },
+        "word_count_ratio": 1.28
+      },
+      "emphasis": {
+        "bold_count_a": 68,
+        "bold_count_c": 39,
+        "bold_jaccard": 0.049
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 102,
+          "causal_verbs": 8,
+          "modality": 12,
+          "uncertainty": 3,
+          "counterfactual": 2
+        },
+        "c": {
+          "thresholds": 83,
+          "causal_verbs": 13,
+          "modality": 18,
+          "uncertainty": 7,
+          "counterfactual": 6
+        }
+      },
+      "section_alignment": {
+        "headings_a": 14,
+        "headings_b": 15,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.714,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 18,
+        "claims_b": 26,
+        "novel_claims_a": 12,
+        "novel_claims_b": 21,
+        "novel_supported_a": 2,
+        "novel_supported_b": 6,
+        "novel_action_a": 9,
+        "novel_action_b": 13,
+        "cite_per_claim_a": 2.61,
+        "cite_per_claim_b": 2.31
+      }
+    },
+    "s59_A vs s173_A": {
+      "similarity": {
+        "cosine": 0.946,
+        "jaccard_unigram": 0.441,
+        "jaccard_bigram": 0.148,
+        "jaccard_trigram": 0.072
+      },
+      "citations": {
+        "count_a": 34,
+        "count_b": 35,
+        "shared": 19,
+        "a_only": 15,
+        "c_only": 16,
+        "jaccard": 0.38,
+        "density_a": 9.6,
+        "density_c": 9.0,
+        "top_a_only": [
+          "HSEP113",
+          "HSEP116",
+          "HSEP122",
+          "HSEP17",
+          "HSEP20",
+          "HSEP24",
+          "HSEP37",
+          "HSEP41",
+          "HSEP47",
+          "HSEP51"
+        ],
+        "top_c_only": [
+          "HSEP1",
+          "HSEP110",
+          "HSEP121",
+          "HSEP129",
+          "HSEP137",
+          "HSEP138",
+          "HSEP21",
+          "HSEP22",
+          "HSEP27",
+          "HSEP38"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 3543,
+          "sections": 13,
+          "lexical_diversity": 0.384,
+          "mean_sentence_length": 13.8
+        },
+        "c": {
+          "word_count": 3876,
+          "sections": 15,
+          "lexical_diversity": 0.391,
+          "mean_sentence_length": 13.2
+        },
+        "word_count_ratio": 1.09
+      },
+      "emphasis": {
+        "bold_count_a": 68,
+        "bold_count_c": 41,
+        "bold_jaccard": 0.0
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 102,
+          "causal_verbs": 8,
+          "modality": 12,
+          "uncertainty": 3,
+          "counterfactual": 2
+        },
+        "c": {
+          "thresholds": 116,
+          "causal_verbs": 10,
+          "modality": 7,
+          "uncertainty": 4,
+          "counterfactual": 6
+        }
+      },
+      "section_alignment": {
+        "headings_a": 14,
+        "headings_b": 16,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.714,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 18,
+        "claims_b": 15,
+        "novel_claims_a": 12,
+        "novel_claims_b": 10,
+        "novel_supported_a": 1,
+        "novel_supported_b": 2,
+        "novel_action_a": 10,
+        "novel_action_b": 6,
+        "cite_per_claim_a": 2.61,
+        "cite_per_claim_b": 2.67
+      }
+    },
+    "s59_A vs s173_C": {
+      "similarity": {
+        "cosine": 0.943,
+        "jaccard_unigram": 0.385,
+        "jaccard_bigram": 0.119,
+        "jaccard_trigram": 0.052
+      },
+      "citations": {
+        "count_a": 34,
+        "count_b": 33,
+        "shared": 15,
+        "a_only": 19,
+        "c_only": 18,
+        "jaccard": 0.288,
+        "density_a": 9.6,
+        "density_c": 7.2,
+        "top_a_only": [
+          "HSEP113",
+          "HSEP116",
+          "HSEP118",
+          "HSEP12",
+          "HSEP122",
+          "HSEP132",
+          "HSEP20",
+          "HSEP24",
+          "HSEP30",
+          "HSEP37"
+        ],
+        "top_c_only": [
+          "HSEP101",
+          "HSEP105",
+          "HSEP108",
+          "HSEP117",
+          "HSEP137",
+          "HSEP16",
+          "HSEP22",
+          "HSEP31",
+          "HSEP40",
+          "HSEP44"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 3543,
+          "sections": 13,
+          "lexical_diversity": 0.384,
+          "mean_sentence_length": 13.8
+        },
+        "c": {
+          "word_count": 4573,
+          "sections": 13,
+          "lexical_diversity": 0.347,
+          "mean_sentence_length": 14.1
+        },
+        "word_count_ratio": 1.29
+      },
+      "emphasis": {
+        "bold_count_a": 68,
+        "bold_count_c": 40,
+        "bold_jaccard": 0.149
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 102,
+          "causal_verbs": 8,
+          "modality": 12,
+          "uncertainty": 3,
+          "counterfactual": 2
+        },
+        "c": {
+          "thresholds": 100,
+          "causal_verbs": 13,
+          "modality": 10,
+          "uncertainty": 7,
+          "counterfactual": 5
+        }
+      },
+      "section_alignment": {
+        "headings_a": 14,
+        "headings_b": 14,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.714,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 18,
+        "claims_b": 19,
+        "novel_claims_a": 13,
+        "novel_claims_b": 17,
+        "novel_supported_a": 2,
+        "novel_supported_b": 4,
+        "novel_action_a": 10,
+        "novel_action_b": 9,
+        "cite_per_claim_a": 2.61,
+        "cite_per_claim_b": 2.63
+      }
+    },
+    "s59_A vs s23_A": {
+      "similarity": {
+        "cosine": 0.951,
+        "jaccard_unigram": 0.449,
+        "jaccard_bigram": 0.158,
+        "jaccard_trigram": 0.08
+      },
+      "citations": {
+        "count_a": 34,
+        "count_b": 25,
+        "shared": 17,
+        "a_only": 17,
+        "c_only": 8,
+        "jaccard": 0.405,
+        "density_a": 9.6,
+        "density_c": 7.3,
+        "top_a_only": [
+          "HSEP107",
+          "HSEP113",
+          "HSEP116",
+          "HSEP122",
+          "HSEP124",
+          "HSEP17",
+          "HSEP20",
+          "HSEP24",
+          "HSEP37",
+          "HSEP41"
+        ],
+        "top_c_only": [
+          "HSEP11",
+          "HSEP137",
+          "HSEP21",
+          "HSEP27",
+          "HSEP38",
+          "HSEP74",
+          "HSEP93",
+          "HSEP98"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 3543,
+          "sections": 13,
+          "lexical_diversity": 0.384,
+          "mean_sentence_length": 13.8
+        },
+        "c": {
+          "word_count": 3405,
+          "sections": 12,
+          "lexical_diversity": 0.39,
+          "mean_sentence_length": 14.1
+        },
+        "word_count_ratio": 0.96
+      },
+      "emphasis": {
+        "bold_count_a": 68,
+        "bold_count_c": 23,
+        "bold_jaccard": 0.0
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 102,
+          "causal_verbs": 8,
+          "modality": 12,
+          "uncertainty": 3,
+          "counterfactual": 2
+        },
+        "c": {
+          "thresholds": 92,
+          "causal_verbs": 10,
+          "modality": 7,
+          "uncertainty": 6,
+          "counterfactual": 4
+        }
+      },
+      "section_alignment": {
+        "headings_a": 14,
+        "headings_b": 13,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.714,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 18,
+        "claims_b": 17,
+        "novel_claims_a": 13,
+        "novel_claims_b": 12,
+        "novel_supported_a": 1,
+        "novel_supported_b": 3,
+        "novel_action_a": 10,
+        "novel_action_b": 6,
+        "cite_per_claim_a": 2.61,
+        "cite_per_claim_b": 1.76
+      }
+    },
+    "s59_A vs s23_C": {
+      "similarity": {
+        "cosine": 0.919,
+        "jaccard_unigram": 0.359,
+        "jaccard_bigram": 0.092,
+        "jaccard_trigram": 0.038
+      },
+      "citations": {
+        "count_a": 34,
+        "count_b": 39,
+        "shared": 16,
+        "a_only": 18,
+        "c_only": 23,
+        "jaccard": 0.281,
+        "density_a": 9.6,
+        "density_c": 10.7,
+        "top_a_only": [
+          "HSEP100",
+          "HSEP102",
+          "HSEP113",
+          "HSEP12",
+          "HSEP122",
+          "HSEP132",
+          "HSEP20",
+          "HSEP24",
+          "HSEP3",
+          "HSEP30"
+        ],
+        "top_c_only": [
+          "HSEP1",
+          "HSEP101",
+          "HSEP103",
+          "HSEP11",
+          "HSEP110",
+          "HSEP112",
+          "HSEP128",
+          "HSEP129",
+          "HSEP137",
+          "HSEP14"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 3543,
+          "sections": 13,
+          "lexical_diversity": 0.384,
+          "mean_sentence_length": 13.8
+        },
+        "c": {
+          "word_count": 3638,
+          "sections": 11,
+          "lexical_diversity": 0.384,
+          "mean_sentence_length": 14.9
+        },
+        "word_count_ratio": 1.03
+      },
+      "emphasis": {
+        "bold_count_a": 68,
+        "bold_count_c": 33,
+        "bold_jaccard": 0.052
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 102,
+          "causal_verbs": 8,
+          "modality": 12,
+          "uncertainty": 3,
+          "counterfactual": 2
+        },
+        "c": {
+          "thresholds": 68,
+          "causal_verbs": 9,
+          "modality": 11,
+          "uncertainty": 7,
+          "counterfactual": 2
+        }
+      },
+      "section_alignment": {
+        "headings_a": 14,
+        "headings_b": 12,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.714,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 18,
+        "claims_b": 19,
+        "novel_claims_a": 15,
+        "novel_claims_b": 18,
+        "novel_supported_a": 2,
+        "novel_supported_b": 3,
+        "novel_action_a": 10,
+        "novel_action_b": 10,
+        "cite_per_claim_a": 2.61,
+        "cite_per_claim_b": 2.68
+      }
+    },
+    "s59_C vs s101_A": {
+      "similarity": {
+        "cosine": 0.899,
+        "jaccard_unigram": 0.347,
+        "jaccard_bigram": 0.077,
+        "jaccard_trigram": 0.031
+      },
+      "citations": {
+        "count_a": 45,
+        "count_b": 41,
+        "shared": 21,
+        "a_only": 24,
+        "c_only": 20,
+        "jaccard": 0.323,
+        "density_a": 10.0,
+        "density_c": 9.7,
+        "top_a_only": [
+          "HSEP1",
+          "HSEP101",
+          "HSEP108",
+          "HSEP111",
+          "HSEP116",
+          "HSEP128",
+          "HSEP13",
+          "HSEP15",
+          "HSEP22",
+          "HSEP31"
+        ],
+        "top_c_only": [
+          "HSEP11",
+          "HSEP113",
+          "HSEP12",
+          "HSEP134",
+          "HSEP137",
+          "HSEP17",
+          "HSEP26",
+          "HSEP32",
+          "HSEP33",
+          "HSEP37"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4519,
+          "sections": 14,
+          "lexical_diversity": 0.345,
+          "mean_sentence_length": 17.4
+        },
+        "c": {
+          "word_count": 4232,
+          "sections": 16,
+          "lexical_diversity": 0.378,
+          "mean_sentence_length": 13.9
+        },
+        "word_count_ratio": 0.94
+      },
+      "emphasis": {
+        "bold_count_a": 5,
+        "bold_count_c": 48,
+        "bold_jaccard": 0.0
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 65,
+          "causal_verbs": 13,
+          "modality": 3,
+          "uncertainty": 13,
+          "counterfactual": 7
+        },
+        "c": {
+          "thresholds": 110,
+          "causal_verbs": 9,
+          "modality": 12,
+          "uncertainty": 6,
+          "counterfactual": 3
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 17,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 14,
+        "claims_b": 20,
+        "novel_claims_a": 14,
+        "novel_claims_b": 20,
+        "novel_supported_a": 4,
+        "novel_supported_b": 2,
+        "novel_action_a": 3,
+        "novel_action_b": 11,
+        "cite_per_claim_a": 5.36,
+        "cite_per_claim_b": 2.95
+      }
+    },
+    "s59_C vs s101_C": {
+      "similarity": {
+        "cosine": 0.955,
+        "jaccard_unigram": 0.393,
+        "jaccard_bigram": 0.105,
+        "jaccard_trigram": 0.046
+      },
+      "citations": {
+        "count_a": 45,
+        "count_b": 35,
+        "shared": 25,
+        "a_only": 20,
+        "c_only": 10,
+        "jaccard": 0.455,
+        "density_a": 10.0,
+        "density_c": 7.7,
+        "top_a_only": [
+          "HSEP108",
+          "HSEP111",
+          "HSEP116",
+          "HSEP118",
+          "HSEP129",
+          "HSEP13",
+          "HSEP132",
+          "HSEP15",
+          "HSEP30",
+          "HSEP38"
+        ],
+        "top_c_only": [
+          "HSEP119",
+          "HSEP14",
+          "HSEP16",
+          "HSEP17",
+          "HSEP19",
+          "HSEP33",
+          "HSEP39",
+          "HSEP47",
+          "HSEP67",
+          "HSEP93"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4519,
+          "sections": 14,
+          "lexical_diversity": 0.345,
+          "mean_sentence_length": 17.4
+        },
+        "c": {
+          "word_count": 4537,
+          "sections": 14,
+          "lexical_diversity": 0.352,
+          "mean_sentence_length": 14.5
+        },
+        "word_count_ratio": 1.0
+      },
+      "emphasis": {
+        "bold_count_a": 5,
+        "bold_count_c": 39,
+        "bold_jaccard": 0.0
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 65,
+          "causal_verbs": 13,
+          "modality": 3,
+          "uncertainty": 13,
+          "counterfactual": 7
+        },
+        "c": {
+          "thresholds": 83,
+          "causal_verbs": 13,
+          "modality": 18,
+          "uncertainty": 7,
+          "counterfactual": 6
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 15,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 14,
+        "claims_b": 26,
+        "novel_claims_a": 12,
+        "novel_claims_b": 19,
+        "novel_supported_a": 3,
+        "novel_supported_b": 2,
+        "novel_action_a": 3,
+        "novel_action_b": 14,
+        "cite_per_claim_a": 5.36,
+        "cite_per_claim_b": 2.31
+      }
+    },
+    "s59_C vs s173_A": {
+      "similarity": {
+        "cosine": 0.893,
+        "jaccard_unigram": 0.342,
+        "jaccard_bigram": 0.08,
+        "jaccard_trigram": 0.03
+      },
+      "citations": {
+        "count_a": 45,
+        "count_b": 35,
+        "shared": 24,
+        "a_only": 21,
+        "c_only": 11,
+        "jaccard": 0.429,
+        "density_a": 10.0,
+        "density_c": 9.0,
+        "top_a_only": [
+          "HSEP101",
+          "HSEP108",
+          "HSEP111",
+          "HSEP116",
+          "HSEP128",
+          "HSEP13",
+          "HSEP15",
+          "HSEP31",
+          "HSEP40",
+          "HSEP44"
+        ],
+        "top_c_only": [
+          "HSEP110",
+          "HSEP12",
+          "HSEP121",
+          "HSEP137",
+          "HSEP138",
+          "HSEP21",
+          "HSEP27",
+          "HSEP49",
+          "HSEP90",
+          "HSEP94"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4519,
+          "sections": 14,
+          "lexical_diversity": 0.345,
+          "mean_sentence_length": 17.4
+        },
+        "c": {
+          "word_count": 3876,
+          "sections": 15,
+          "lexical_diversity": 0.391,
+          "mean_sentence_length": 13.2
+        },
+        "word_count_ratio": 0.86
+      },
+      "emphasis": {
+        "bold_count_a": 5,
+        "bold_count_c": 41,
+        "bold_jaccard": 0.0
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 65,
+          "causal_verbs": 13,
+          "modality": 3,
+          "uncertainty": 13,
+          "counterfactual": 7
+        },
+        "c": {
+          "thresholds": 116,
+          "causal_verbs": 10,
+          "modality": 7,
+          "uncertainty": 4,
+          "counterfactual": 6
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 16,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 14,
+        "claims_b": 15,
+        "novel_claims_a": 14,
+        "novel_claims_b": 15,
+        "novel_supported_a": 4,
+        "novel_supported_b": 4,
+        "novel_action_a": 3,
+        "novel_action_b": 6,
+        "cite_per_claim_a": 5.36,
+        "cite_per_claim_b": 2.67
+      }
+    },
+    "s59_C vs s173_C": {
+      "similarity": {
+        "cosine": 0.951,
+        "jaccard_unigram": 0.376,
+        "jaccard_bigram": 0.091,
+        "jaccard_trigram": 0.033
+      },
+      "citations": {
+        "count_a": 45,
+        "count_b": 33,
+        "shared": 24,
+        "a_only": 21,
+        "c_only": 9,
+        "jaccard": 0.444,
+        "density_a": 10.0,
+        "density_c": 7.2,
+        "top_a_only": [
+          "HSEP1",
+          "HSEP111",
+          "HSEP116",
+          "HSEP118",
+          "HSEP128",
+          "HSEP129",
+          "HSEP13",
+          "HSEP132",
+          "HSEP15",
+          "HSEP30"
+        ],
+        "top_c_only": [
+          "HSEP105",
+          "HSEP117",
+          "HSEP137",
+          "HSEP16",
+          "HSEP17",
+          "HSEP41",
+          "HSEP84",
+          "HSEP93",
+          "HSEP96"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4519,
+          "sections": 14,
+          "lexical_diversity": 0.345,
+          "mean_sentence_length": 17.4
+        },
+        "c": {
+          "word_count": 4573,
+          "sections": 13,
+          "lexical_diversity": 0.347,
+          "mean_sentence_length": 14.1
+        },
+        "word_count_ratio": 1.01
+      },
+      "emphasis": {
+        "bold_count_a": 5,
+        "bold_count_c": 40,
+        "bold_jaccard": 0.047
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 65,
+          "causal_verbs": 13,
+          "modality": 3,
+          "uncertainty": 13,
+          "counterfactual": 7
+        },
+        "c": {
+          "thresholds": 100,
+          "causal_verbs": 13,
+          "modality": 10,
+          "uncertainty": 7,
+          "counterfactual": 5
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 14,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 14,
+        "claims_b": 19,
+        "novel_claims_a": 14,
+        "novel_claims_b": 19,
+        "novel_supported_a": 4,
+        "novel_supported_b": 4,
+        "novel_action_a": 3,
+        "novel_action_b": 9,
+        "cite_per_claim_a": 5.36,
+        "cite_per_claim_b": 2.63
+      }
+    },
+    "s59_C vs s23_A": {
+      "similarity": {
+        "cosine": 0.919,
+        "jaccard_unigram": 0.333,
+        "jaccard_bigram": 0.078,
+        "jaccard_trigram": 0.027
+      },
+      "citations": {
+        "count_a": 45,
+        "count_b": 25,
+        "shared": 16,
+        "a_only": 29,
+        "c_only": 9,
+        "jaccard": 0.296,
+        "density_a": 10.0,
+        "density_c": 7.3,
+        "top_a_only": [
+          "HSEP1",
+          "HSEP101",
+          "HSEP107",
+          "HSEP108",
+          "HSEP111",
+          "HSEP116",
+          "HSEP124",
+          "HSEP128",
+          "HSEP129",
+          "HSEP13"
+        ],
+        "top_c_only": [
+          "HSEP11",
+          "HSEP12",
+          "HSEP137",
+          "HSEP21",
+          "HSEP27",
+          "HSEP74",
+          "HSEP93",
+          "HSEP94",
+          "HSEP98"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4519,
+          "sections": 14,
+          "lexical_diversity": 0.345,
+          "mean_sentence_length": 17.4
+        },
+        "c": {
+          "word_count": 3405,
+          "sections": 12,
+          "lexical_diversity": 0.39,
+          "mean_sentence_length": 14.1
+        },
+        "word_count_ratio": 0.75
+      },
+      "emphasis": {
+        "bold_count_a": 5,
+        "bold_count_c": 23,
+        "bold_jaccard": 0.0
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 65,
+          "causal_verbs": 13,
+          "modality": 3,
+          "uncertainty": 13,
+          "counterfactual": 7
+        },
+        "c": {
+          "thresholds": 92,
+          "causal_verbs": 10,
+          "modality": 7,
+          "uncertainty": 6,
+          "counterfactual": 4
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 13,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 14,
+        "claims_b": 17,
+        "novel_claims_a": 14,
+        "novel_claims_b": 15,
+        "novel_supported_a": 4,
+        "novel_supported_b": 4,
+        "novel_action_a": 3,
+        "novel_action_b": 6,
+        "cite_per_claim_a": 5.36,
+        "cite_per_claim_b": 1.76
+      }
+    },
+    "s59_C vs s23_C": {
+      "similarity": {
+        "cosine": 0.948,
+        "jaccard_unigram": 0.37,
+        "jaccard_bigram": 0.094,
+        "jaccard_trigram": 0.034
+      },
+      "citations": {
+        "count_a": 45,
+        "count_b": 39,
+        "shared": 26,
+        "a_only": 19,
+        "c_only": 13,
+        "jaccard": 0.448,
+        "density_a": 10.0,
+        "density_c": 10.7,
+        "top_a_only": [
+          "HSEP100",
+          "HSEP102",
+          "HSEP108",
+          "HSEP111",
+          "HSEP13",
+          "HSEP132",
+          "HSEP15",
+          "HSEP22",
+          "HSEP3",
+          "HSEP30"
+        ],
+        "top_c_only": [
+          "HSEP103",
+          "HSEP11",
+          "HSEP110",
+          "HSEP112",
+          "HSEP137",
+          "HSEP14",
+          "HSEP16",
+          "HSEP17",
+          "HSEP39",
+          "HSEP8"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4519,
+          "sections": 14,
+          "lexical_diversity": 0.345,
+          "mean_sentence_length": 17.4
+        },
+        "c": {
+          "word_count": 3638,
+          "sections": 11,
+          "lexical_diversity": 0.384,
+          "mean_sentence_length": 14.9
+        },
+        "word_count_ratio": 0.81
+      },
+      "emphasis": {
+        "bold_count_a": 5,
+        "bold_count_c": 33,
+        "bold_jaccard": 0.0
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 65,
+          "causal_verbs": 13,
+          "modality": 3,
+          "uncertainty": 13,
+          "counterfactual": 7
+        },
+        "c": {
+          "thresholds": 68,
+          "causal_verbs": 9,
+          "modality": 11,
+          "uncertainty": 7,
+          "counterfactual": 2
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 12,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 14,
+        "claims_b": 19,
+        "novel_claims_a": 14,
+        "novel_claims_b": 18,
+        "novel_supported_a": 4,
+        "novel_supported_b": 3,
+        "novel_action_a": 3,
+        "novel_action_b": 10,
+        "cite_per_claim_a": 5.36,
+        "cite_per_claim_b": 2.68
+      }
+    },
+    "s101_A vs s101_C": {
+      "similarity": {
+        "cosine": 0.905,
+        "jaccard_unigram": 0.381,
+        "jaccard_bigram": 0.097,
+        "jaccard_trigram": 0.042
+      },
+      "citations": {
+        "count_a": 41,
+        "count_b": 35,
+        "shared": 21,
+        "a_only": 20,
+        "c_only": 14,
+        "jaccard": 0.382,
+        "density_a": 9.7,
+        "density_c": 7.7,
+        "top_a_only": [
+          "HSEP11",
+          "HSEP113",
+          "HSEP118",
+          "HSEP12",
+          "HSEP129",
+          "HSEP132",
+          "HSEP134",
+          "HSEP137",
+          "HSEP26",
+          "HSEP30"
+        ],
+        "top_c_only": [
+          "HSEP1",
+          "HSEP101",
+          "HSEP119",
+          "HSEP128",
+          "HSEP14",
+          "HSEP16",
+          "HSEP19",
+          "HSEP22",
+          "HSEP31",
+          "HSEP39"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4232,
+          "sections": 16,
+          "lexical_diversity": 0.378,
+          "mean_sentence_length": 13.9
+        },
+        "c": {
+          "word_count": 4537,
+          "sections": 14,
+          "lexical_diversity": 0.352,
+          "mean_sentence_length": 14.5
+        },
+        "word_count_ratio": 1.07
+      },
+      "emphasis": {
+        "bold_count_a": 48,
+        "bold_count_c": 39,
+        "bold_jaccard": 0.048
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 110,
+          "causal_verbs": 9,
+          "modality": 12,
+          "uncertainty": 6,
+          "counterfactual": 3
+        },
+        "c": {
+          "thresholds": 83,
+          "causal_verbs": 13,
+          "modality": 18,
+          "uncertainty": 7,
+          "counterfactual": 6
+        }
+      },
+      "section_alignment": {
+        "headings_a": 17,
+        "headings_b": 15,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.765,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 20,
+        "claims_b": 26,
+        "novel_claims_a": 17,
+        "novel_claims_b": 21,
+        "novel_supported_a": 2,
+        "novel_supported_b": 6,
+        "novel_action_a": 11,
+        "novel_action_b": 14,
+        "cite_per_claim_a": 2.95,
+        "cite_per_claim_b": 2.31
+      }
+    },
+    "s101_A vs s173_A": {
+      "similarity": {
+        "cosine": 0.959,
+        "jaccard_unigram": 0.469,
+        "jaccard_bigram": 0.157,
+        "jaccard_trigram": 0.083
+      },
+      "citations": {
+        "count_a": 41,
+        "count_b": 35,
+        "shared": 24,
+        "a_only": 17,
+        "c_only": 11,
+        "jaccard": 0.462,
+        "density_a": 9.7,
+        "density_c": 9.0,
+        "top_a_only": [
+          "HSEP11",
+          "HSEP113",
+          "HSEP134",
+          "HSEP17",
+          "HSEP26",
+          "HSEP32",
+          "HSEP33",
+          "HSEP37",
+          "HSEP47",
+          "HSEP62"
+        ],
+        "top_c_only": [
+          "HSEP1",
+          "HSEP110",
+          "HSEP121",
+          "HSEP138",
+          "HSEP21",
+          "HSEP22",
+          "HSEP27",
+          "HSEP38",
+          "HSEP68",
+          "HSEP88"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4232,
+          "sections": 16,
+          "lexical_diversity": 0.378,
+          "mean_sentence_length": 13.9
+        },
+        "c": {
+          "word_count": 3876,
+          "sections": 15,
+          "lexical_diversity": 0.391,
+          "mean_sentence_length": 13.2
+        },
+        "word_count_ratio": 0.92
+      },
+      "emphasis": {
+        "bold_count_a": 48,
+        "bold_count_c": 41,
+        "bold_jaccard": 0.011
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 110,
+          "causal_verbs": 9,
+          "modality": 12,
+          "uncertainty": 6,
+          "counterfactual": 3
+        },
+        "c": {
+          "thresholds": 116,
+          "causal_verbs": 10,
+          "modality": 7,
+          "uncertainty": 4,
+          "counterfactual": 6
+        }
+      },
+      "section_alignment": {
+        "headings_a": 17,
+        "headings_b": 16,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.765,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 20,
+        "claims_b": 15,
+        "novel_claims_a": 15,
+        "novel_claims_b": 12,
+        "novel_supported_a": 0,
+        "novel_supported_b": 4,
+        "novel_action_a": 9,
+        "novel_action_b": 6,
+        "cite_per_claim_a": 2.95,
+        "cite_per_claim_b": 2.67
+      }
+    },
+    "s101_A vs s173_C": {
+      "similarity": {
+        "cosine": 0.912,
+        "jaccard_unigram": 0.381,
+        "jaccard_bigram": 0.11,
+        "jaccard_trigram": 0.047
+      },
+      "citations": {
+        "count_a": 41,
+        "count_b": 33,
+        "shared": 17,
+        "a_only": 24,
+        "c_only": 16,
+        "jaccard": 0.298,
+        "density_a": 9.7,
+        "density_c": 7.2,
+        "top_a_only": [
+          "HSEP11",
+          "HSEP113",
+          "HSEP118",
+          "HSEP12",
+          "HSEP129",
+          "HSEP132",
+          "HSEP134",
+          "HSEP26",
+          "HSEP30",
+          "HSEP32"
+        ],
+        "top_c_only": [
+          "HSEP101",
+          "HSEP105",
+          "HSEP108",
+          "HSEP117",
+          "HSEP16",
+          "HSEP22",
+          "HSEP31",
+          "HSEP40",
+          "HSEP41",
+          "HSEP44"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4232,
+          "sections": 16,
+          "lexical_diversity": 0.378,
+          "mean_sentence_length": 13.9
+        },
+        "c": {
+          "word_count": 4573,
+          "sections": 13,
+          "lexical_diversity": 0.347,
+          "mean_sentence_length": 14.1
+        },
+        "word_count_ratio": 1.08
+      },
+      "emphasis": {
+        "bold_count_a": 48,
+        "bold_count_c": 40,
+        "bold_jaccard": 0.048
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 110,
+          "causal_verbs": 9,
+          "modality": 12,
+          "uncertainty": 6,
+          "counterfactual": 3
+        },
+        "c": {
+          "thresholds": 100,
+          "causal_verbs": 13,
+          "modality": 10,
+          "uncertainty": 7,
+          "counterfactual": 5
+        }
+      },
+      "section_alignment": {
+        "headings_a": 17,
+        "headings_b": 14,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.765,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 20,
+        "claims_b": 19,
+        "novel_claims_a": 17,
+        "novel_claims_b": 16,
+        "novel_supported_a": 2,
+        "novel_supported_b": 4,
+        "novel_action_a": 11,
+        "novel_action_b": 9,
+        "cite_per_claim_a": 2.95,
+        "cite_per_claim_b": 2.63
+      }
+    },
+    "s101_A vs s23_A": {
+      "similarity": {
+        "cosine": 0.952,
+        "jaccard_unigram": 0.445,
+        "jaccard_bigram": 0.141,
+        "jaccard_trigram": 0.073
+      },
+      "citations": {
+        "count_a": 41,
+        "count_b": 25,
+        "shared": 20,
+        "a_only": 21,
+        "c_only": 5,
+        "jaccard": 0.435,
+        "density_a": 9.7,
+        "density_c": 7.3,
+        "top_a_only": [
+          "HSEP107",
+          "HSEP113",
+          "HSEP124",
+          "HSEP129",
+          "HSEP134",
+          "HSEP17",
+          "HSEP26",
+          "HSEP32",
+          "HSEP33",
+          "HSEP37"
+        ],
+        "top_c_only": [
+          "HSEP21",
+          "HSEP27",
+          "HSEP38",
+          "HSEP74",
+          "HSEP98"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4232,
+          "sections": 16,
+          "lexical_diversity": 0.378,
+          "mean_sentence_length": 13.9
+        },
+        "c": {
+          "word_count": 3405,
+          "sections": 12,
+          "lexical_diversity": 0.39,
+          "mean_sentence_length": 14.1
+        },
+        "word_count_ratio": 0.8
+      },
+      "emphasis": {
+        "bold_count_a": 48,
+        "bold_count_c": 23,
+        "bold_jaccard": 0.029
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 110,
+          "causal_verbs": 9,
+          "modality": 12,
+          "uncertainty": 6,
+          "counterfactual": 3
+        },
+        "c": {
+          "thresholds": 92,
+          "causal_verbs": 10,
+          "modality": 7,
+          "uncertainty": 6,
+          "counterfactual": 4
+        }
+      },
+      "section_alignment": {
+        "headings_a": 17,
+        "headings_b": 13,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.765,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 20,
+        "claims_b": 17,
+        "novel_claims_a": 15,
+        "novel_claims_b": 10,
+        "novel_supported_a": 1,
+        "novel_supported_b": 3,
+        "novel_action_a": 10,
+        "novel_action_b": 6,
+        "cite_per_claim_a": 2.95,
+        "cite_per_claim_b": 1.76
+      }
+    },
+    "s101_A vs s23_C": {
+      "similarity": {
+        "cosine": 0.887,
+        "jaccard_unigram": 0.371,
+        "jaccard_bigram": 0.088,
+        "jaccard_trigram": 0.039
+      },
+      "citations": {
+        "count_a": 41,
+        "count_b": 39,
+        "shared": 19,
+        "a_only": 22,
+        "c_only": 20,
+        "jaccard": 0.311,
+        "density_a": 9.7,
+        "density_c": 10.7,
+        "top_a_only": [
+          "HSEP100",
+          "HSEP102",
+          "HSEP113",
+          "HSEP12",
+          "HSEP132",
+          "HSEP134",
+          "HSEP26",
+          "HSEP3",
+          "HSEP30",
+          "HSEP32"
+        ],
+        "top_c_only": [
+          "HSEP1",
+          "HSEP101",
+          "HSEP103",
+          "HSEP110",
+          "HSEP112",
+          "HSEP116",
+          "HSEP128",
+          "HSEP14",
+          "HSEP16",
+          "HSEP31"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4232,
+          "sections": 16,
+          "lexical_diversity": 0.378,
+          "mean_sentence_length": 13.9
+        },
+        "c": {
+          "word_count": 3638,
+          "sections": 11,
+          "lexical_diversity": 0.384,
+          "mean_sentence_length": 14.9
+        },
+        "word_count_ratio": 0.86
+      },
+      "emphasis": {
+        "bold_count_a": 48,
+        "bold_count_c": 33,
+        "bold_jaccard": 0.038
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 110,
+          "causal_verbs": 9,
+          "modality": 12,
+          "uncertainty": 6,
+          "counterfactual": 3
+        },
+        "c": {
+          "thresholds": 68,
+          "causal_verbs": 9,
+          "modality": 11,
+          "uncertainty": 7,
+          "counterfactual": 2
+        }
+      },
+      "section_alignment": {
+        "headings_a": 17,
+        "headings_b": 12,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.765,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 20,
+        "claims_b": 19,
+        "novel_claims_a": 18,
+        "novel_claims_b": 18,
+        "novel_supported_a": 2,
+        "novel_supported_b": 3,
+        "novel_action_a": 11,
+        "novel_action_b": 9,
+        "cite_per_claim_a": 2.95,
+        "cite_per_claim_b": 2.68
+      }
+    },
+    "s101_C vs s173_A": {
+      "similarity": {
+        "cosine": 0.909,
+        "jaccard_unigram": 0.38,
+        "jaccard_bigram": 0.1,
+        "jaccard_trigram": 0.041
+      },
+      "citations": {
+        "count_a": 35,
+        "count_b": 35,
+        "shared": 19,
+        "a_only": 16,
+        "c_only": 16,
+        "jaccard": 0.373,
+        "density_a": 7.7,
+        "density_c": 9.0,
+        "top_a_only": [
+          "HSEP101",
+          "HSEP119",
+          "HSEP128",
+          "HSEP14",
+          "HSEP16",
+          "HSEP17",
+          "HSEP19",
+          "HSEP31",
+          "HSEP33",
+          "HSEP39"
+        ],
+        "top_c_only": [
+          "HSEP110",
+          "HSEP118",
+          "HSEP12",
+          "HSEP121",
+          "HSEP129",
+          "HSEP132",
+          "HSEP137",
+          "HSEP138",
+          "HSEP21",
+          "HSEP27"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4537,
+          "sections": 14,
+          "lexical_diversity": 0.352,
+          "mean_sentence_length": 14.5
+        },
+        "c": {
+          "word_count": 3876,
+          "sections": 15,
+          "lexical_diversity": 0.391,
+          "mean_sentence_length": 13.2
+        },
+        "word_count_ratio": 0.85
+      },
+      "emphasis": {
+        "bold_count_a": 39,
+        "bold_count_c": 41,
+        "bold_jaccard": 0.0
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 83,
+          "causal_verbs": 13,
+          "modality": 18,
+          "uncertainty": 7,
+          "counterfactual": 6
+        },
+        "c": {
+          "thresholds": 116,
+          "causal_verbs": 10,
+          "modality": 7,
+          "uncertainty": 4,
+          "counterfactual": 6
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 16,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 26,
+        "claims_b": 15,
+        "novel_claims_a": 21,
+        "novel_claims_b": 12,
+        "novel_supported_a": 4,
+        "novel_supported_b": 4,
+        "novel_action_a": 13,
+        "novel_action_b": 6,
+        "cite_per_claim_a": 2.31,
+        "cite_per_claim_b": 2.67
+      }
+    },
+    "s101_C vs s173_C": {
+      "similarity": {
+        "cosine": 0.957,
+        "jaccard_unigram": 0.412,
+        "jaccard_bigram": 0.12,
+        "jaccard_trigram": 0.052
+      },
+      "citations": {
+        "count_a": 35,
+        "count_b": 33,
+        "shared": 22,
+        "a_only": 13,
+        "c_only": 11,
+        "jaccard": 0.478,
+        "density_a": 7.7,
+        "density_c": 7.2,
+        "top_a_only": [
+          "HSEP1",
+          "HSEP119",
+          "HSEP128",
+          "HSEP14",
+          "HSEP19",
+          "HSEP33",
+          "HSEP39",
+          "HSEP43",
+          "HSEP47",
+          "HSEP5"
+        ],
+        "top_c_only": [
+          "HSEP105",
+          "HSEP108",
+          "HSEP117",
+          "HSEP137",
+          "HSEP41",
+          "HSEP44",
+          "HSEP78",
+          "HSEP84",
+          "HSEP86",
+          "HSEP89"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4537,
+          "sections": 14,
+          "lexical_diversity": 0.352,
+          "mean_sentence_length": 14.5
+        },
+        "c": {
+          "word_count": 4573,
+          "sections": 13,
+          "lexical_diversity": 0.347,
+          "mean_sentence_length": 14.1
+        },
+        "word_count_ratio": 1.01
+      },
+      "emphasis": {
+        "bold_count_a": 39,
+        "bold_count_c": 40,
+        "bold_jaccard": 0.068
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 83,
+          "causal_verbs": 13,
+          "modality": 18,
+          "uncertainty": 7,
+          "counterfactual": 6
+        },
+        "c": {
+          "thresholds": 100,
+          "causal_verbs": 13,
+          "modality": 10,
+          "uncertainty": 7,
+          "counterfactual": 5
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 14,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 26,
+        "claims_b": 19,
+        "novel_claims_a": 18,
+        "novel_claims_b": 18,
+        "novel_supported_a": 3,
+        "novel_supported_b": 4,
+        "novel_action_a": 14,
+        "novel_action_b": 9,
+        "cite_per_claim_a": 2.31,
+        "cite_per_claim_b": 2.63
+      }
+    },
+    "s101_C vs s23_A": {
+      "similarity": {
+        "cosine": 0.925,
+        "jaccard_unigram": 0.38,
+        "jaccard_bigram": 0.098,
+        "jaccard_trigram": 0.041
+      },
+      "citations": {
+        "count_a": 35,
+        "count_b": 25,
+        "shared": 13,
+        "a_only": 22,
+        "c_only": 12,
+        "jaccard": 0.277,
+        "density_a": 7.7,
+        "density_c": 7.3,
+        "top_a_only": [
+          "HSEP1",
+          "HSEP101",
+          "HSEP107",
+          "HSEP119",
+          "HSEP124",
+          "HSEP128",
+          "HSEP14",
+          "HSEP16",
+          "HSEP17",
+          "HSEP19"
+        ],
+        "top_c_only": [
+          "HSEP11",
+          "HSEP118",
+          "HSEP12",
+          "HSEP132",
+          "HSEP137",
+          "HSEP21",
+          "HSEP27",
+          "HSEP30",
+          "HSEP38",
+          "HSEP74"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4537,
+          "sections": 14,
+          "lexical_diversity": 0.352,
+          "mean_sentence_length": 14.5
+        },
+        "c": {
+          "word_count": 3405,
+          "sections": 12,
+          "lexical_diversity": 0.39,
+          "mean_sentence_length": 14.1
+        },
+        "word_count_ratio": 0.75
+      },
+      "emphasis": {
+        "bold_count_a": 39,
+        "bold_count_c": 23,
+        "bold_jaccard": 0.0
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 83,
+          "causal_verbs": 13,
+          "modality": 18,
+          "uncertainty": 7,
+          "counterfactual": 6
+        },
+        "c": {
+          "thresholds": 92,
+          "causal_verbs": 10,
+          "modality": 7,
+          "uncertainty": 6,
+          "counterfactual": 4
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 13,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 26,
+        "claims_b": 17,
+        "novel_claims_a": 21,
+        "novel_claims_b": 12,
+        "novel_supported_a": 7,
+        "novel_supported_b": 4,
+        "novel_action_a": 14,
+        "novel_action_b": 6,
+        "cite_per_claim_a": 2.31,
+        "cite_per_claim_b": 1.76
+      }
+    },
+    "s101_C vs s23_C": {
+      "similarity": {
+        "cosine": 0.953,
+        "jaccard_unigram": 0.397,
+        "jaccard_bigram": 0.11,
+        "jaccard_trigram": 0.046
+      },
+      "citations": {
+        "count_a": 35,
+        "count_b": 39,
+        "shared": 24,
+        "a_only": 11,
+        "c_only": 15,
+        "jaccard": 0.48,
+        "density_a": 7.7,
+        "density_c": 10.7,
+        "top_a_only": [
+          "HSEP100",
+          "HSEP102",
+          "HSEP119",
+          "HSEP19",
+          "HSEP22",
+          "HSEP3",
+          "HSEP33",
+          "HSEP40",
+          "HSEP47",
+          "HSEP67"
+        ],
+        "top_c_only": [
+          "HSEP103",
+          "HSEP11",
+          "HSEP110",
+          "HSEP112",
+          "HSEP116",
+          "HSEP118",
+          "HSEP129",
+          "HSEP137",
+          "HSEP38",
+          "HSEP78"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4537,
+          "sections": 14,
+          "lexical_diversity": 0.352,
+          "mean_sentence_length": 14.5
+        },
+        "c": {
+          "word_count": 3638,
+          "sections": 11,
+          "lexical_diversity": 0.384,
+          "mean_sentence_length": 14.9
+        },
+        "word_count_ratio": 0.8
+      },
+      "emphasis": {
+        "bold_count_a": 39,
+        "bold_count_c": 33,
+        "bold_jaccard": 0.059
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 83,
+          "causal_verbs": 13,
+          "modality": 18,
+          "uncertainty": 7,
+          "counterfactual": 6
+        },
+        "c": {
+          "thresholds": 68,
+          "causal_verbs": 9,
+          "modality": 11,
+          "uncertainty": 7,
+          "counterfactual": 2
+        }
+      },
+      "section_alignment": {
+        "headings_a": 15,
+        "headings_b": 12,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.733,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 26,
+        "claims_b": 19,
+        "novel_claims_a": 22,
+        "novel_claims_b": 17,
+        "novel_supported_a": 5,
+        "novel_supported_b": 2,
+        "novel_action_a": 15,
+        "novel_action_b": 10,
+        "cite_per_claim_a": 2.31,
+        "cite_per_claim_b": 2.68
+      }
+    },
+    "s173_A vs s173_C": {
+      "similarity": {
+        "cosine": 0.908,
+        "jaccard_unigram": 0.378,
+        "jaccard_bigram": 0.112,
+        "jaccard_trigram": 0.05
+      },
+      "citations": {
+        "count_a": 35,
+        "count_b": 33,
+        "shared": 18,
+        "a_only": 17,
+        "c_only": 15,
+        "jaccard": 0.36,
+        "density_a": 9.0,
+        "density_c": 7.2,
+        "top_a_only": [
+          "HSEP1",
+          "HSEP110",
+          "HSEP118",
+          "HSEP12",
+          "HSEP121",
+          "HSEP129",
+          "HSEP132",
+          "HSEP138",
+          "HSEP21",
+          "HSEP27"
+        ],
+        "top_c_only": [
+          "HSEP101",
+          "HSEP105",
+          "HSEP108",
+          "HSEP117",
+          "HSEP16",
+          "HSEP17",
+          "HSEP31",
+          "HSEP40",
+          "HSEP41",
+          "HSEP44"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 3876,
+          "sections": 15,
+          "lexical_diversity": 0.391,
+          "mean_sentence_length": 13.2
+        },
+        "c": {
+          "word_count": 4573,
+          "sections": 13,
+          "lexical_diversity": 0.347,
+          "mean_sentence_length": 14.1
+        },
+        "word_count_ratio": 1.18
+      },
+      "emphasis": {
+        "bold_count_a": 41,
+        "bold_count_c": 40,
+        "bold_jaccard": 0.0
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 116,
+          "causal_verbs": 10,
+          "modality": 7,
+          "uncertainty": 4,
+          "counterfactual": 6
+        },
+        "c": {
+          "thresholds": 100,
+          "causal_verbs": 13,
+          "modality": 10,
+          "uncertainty": 7,
+          "counterfactual": 5
+        }
+      },
+      "section_alignment": {
+        "headings_a": 16,
+        "headings_b": 14,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.75,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 15,
+        "claims_b": 19,
+        "novel_claims_a": 13,
+        "novel_claims_b": 18,
+        "novel_supported_a": 4,
+        "novel_supported_b": 4,
+        "novel_action_a": 6,
+        "novel_action_b": 9,
+        "cite_per_claim_a": 2.67,
+        "cite_per_claim_b": 2.63
+      }
+    },
+    "s173_A vs s23_A": {
+      "similarity": {
+        "cosine": 0.951,
+        "jaccard_unigram": 0.452,
+        "jaccard_bigram": 0.151,
+        "jaccard_trigram": 0.071
+      },
+      "citations": {
+        "count_a": 35,
+        "count_b": 25,
+        "shared": 21,
+        "a_only": 14,
+        "c_only": 4,
+        "jaccard": 0.538,
+        "density_a": 9.0,
+        "density_c": 7.3,
+        "top_a_only": [
+          "HSEP1",
+          "HSEP107",
+          "HSEP110",
+          "HSEP121",
+          "HSEP124",
+          "HSEP129",
+          "HSEP138",
+          "HSEP22",
+          "HSEP49",
+          "HSEP63"
+        ],
+        "top_c_only": [
+          "HSEP11",
+          "HSEP74",
+          "HSEP93",
+          "HSEP98"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 3876,
+          "sections": 15,
+          "lexical_diversity": 0.391,
+          "mean_sentence_length": 13.2
+        },
+        "c": {
+          "word_count": 3405,
+          "sections": 12,
+          "lexical_diversity": 0.39,
+          "mean_sentence_length": 14.1
+        },
+        "word_count_ratio": 0.88
+      },
+      "emphasis": {
+        "bold_count_a": 41,
+        "bold_count_c": 23,
+        "bold_jaccard": 0.049
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 116,
+          "causal_verbs": 10,
+          "modality": 7,
+          "uncertainty": 4,
+          "counterfactual": 6
+        },
+        "c": {
+          "thresholds": 92,
+          "causal_verbs": 10,
+          "modality": 7,
+          "uncertainty": 6,
+          "counterfactual": 4
+        }
+      },
+      "section_alignment": {
+        "headings_a": 16,
+        "headings_b": 13,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.75,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 15,
+        "claims_b": 17,
+        "novel_claims_a": 11,
+        "novel_claims_b": 13,
+        "novel_supported_a": 3,
+        "novel_supported_b": 3,
+        "novel_action_a": 6,
+        "novel_action_b": 7,
+        "cite_per_claim_a": 2.67,
+        "cite_per_claim_b": 1.76
+      }
+    },
+    "s173_A vs s23_C": {
+      "similarity": {
+        "cosine": 0.885,
+        "jaccard_unigram": 0.361,
+        "jaccard_bigram": 0.088,
+        "jaccard_trigram": 0.036
+      },
+      "citations": {
+        "count_a": 35,
+        "count_b": 39,
+        "shared": 20,
+        "a_only": 15,
+        "c_only": 19,
+        "jaccard": 0.37,
+        "density_a": 9.0,
+        "density_c": 10.7,
+        "top_a_only": [
+          "HSEP100",
+          "HSEP102",
+          "HSEP12",
+          "HSEP121",
+          "HSEP132",
+          "HSEP138",
+          "HSEP21",
+          "HSEP22",
+          "HSEP27",
+          "HSEP3"
+        ],
+        "top_c_only": [
+          "HSEP101",
+          "HSEP103",
+          "HSEP11",
+          "HSEP112",
+          "HSEP116",
+          "HSEP128",
+          "HSEP14",
+          "HSEP16",
+          "HSEP17",
+          "HSEP31"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 3876,
+          "sections": 15,
+          "lexical_diversity": 0.391,
+          "mean_sentence_length": 13.2
+        },
+        "c": {
+          "word_count": 3638,
+          "sections": 11,
+          "lexical_diversity": 0.384,
+          "mean_sentence_length": 14.9
+        },
+        "word_count_ratio": 0.94
+      },
+      "emphasis": {
+        "bold_count_a": 41,
+        "bold_count_c": 33,
+        "bold_jaccard": 0.0
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 116,
+          "causal_verbs": 10,
+          "modality": 7,
+          "uncertainty": 4,
+          "counterfactual": 6
+        },
+        "c": {
+          "thresholds": 68,
+          "causal_verbs": 9,
+          "modality": 11,
+          "uncertainty": 7,
+          "counterfactual": 2
+        }
+      },
+      "section_alignment": {
+        "headings_a": 16,
+        "headings_b": 12,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.75,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 15,
+        "claims_b": 19,
+        "novel_claims_a": 13,
+        "novel_claims_b": 18,
+        "novel_supported_a": 4,
+        "novel_supported_b": 2,
+        "novel_action_a": 6,
+        "novel_action_b": 10,
+        "cite_per_claim_a": 2.67,
+        "cite_per_claim_b": 2.68
+      }
+    },
+    "s173_C vs s23_A": {
+      "similarity": {
+        "cosine": 0.931,
+        "jaccard_unigram": 0.361,
+        "jaccard_bigram": 0.114,
+        "jaccard_trigram": 0.05
+      },
+      "citations": {
+        "count_a": 33,
+        "count_b": 25,
+        "shared": 12,
+        "a_only": 21,
+        "c_only": 13,
+        "jaccard": 0.261,
+        "density_a": 7.2,
+        "density_c": 7.3,
+        "top_a_only": [
+          "HSEP101",
+          "HSEP105",
+          "HSEP107",
+          "HSEP108",
+          "HSEP117",
+          "HSEP124",
+          "HSEP16",
+          "HSEP17",
+          "HSEP22",
+          "HSEP31"
+        ],
+        "top_c_only": [
+          "HSEP11",
+          "HSEP118",
+          "HSEP12",
+          "HSEP132",
+          "HSEP21",
+          "HSEP27",
+          "HSEP30",
+          "HSEP38",
+          "HSEP43",
+          "HSEP5"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4573,
+          "sections": 13,
+          "lexical_diversity": 0.347,
+          "mean_sentence_length": 14.1
+        },
+        "c": {
+          "word_count": 3405,
+          "sections": 12,
+          "lexical_diversity": 0.39,
+          "mean_sentence_length": 14.1
+        },
+        "word_count_ratio": 0.74
+      },
+      "emphasis": {
+        "bold_count_a": 40,
+        "bold_count_c": 23,
+        "bold_jaccard": 0.0
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 100,
+          "causal_verbs": 13,
+          "modality": 10,
+          "uncertainty": 7,
+          "counterfactual": 5
+        },
+        "c": {
+          "thresholds": 92,
+          "causal_verbs": 10,
+          "modality": 7,
+          "uncertainty": 6,
+          "counterfactual": 4
+        }
+      },
+      "section_alignment": {
+        "headings_a": 14,
+        "headings_b": 13,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.714,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 19,
+        "claims_b": 17,
+        "novel_claims_a": 16,
+        "novel_claims_b": 11,
+        "novel_supported_a": 4,
+        "novel_supported_b": 4,
+        "novel_action_a": 8,
+        "novel_action_b": 6,
+        "cite_per_claim_a": 2.63,
+        "cite_per_claim_b": 1.76
+      }
+    },
+    "s173_C vs s23_C": {
+      "similarity": {
+        "cosine": 0.958,
+        "jaccard_unigram": 0.386,
+        "jaccard_bigram": 0.101,
+        "jaccard_trigram": 0.04
+      },
+      "citations": {
+        "count_a": 33,
+        "count_b": 39,
+        "shared": 20,
+        "a_only": 13,
+        "c_only": 19,
+        "jaccard": 0.385,
+        "density_a": 7.2,
+        "density_c": 10.7,
+        "top_a_only": [
+          "HSEP100",
+          "HSEP102",
+          "HSEP105",
+          "HSEP108",
+          "HSEP117",
+          "HSEP22",
+          "HSEP3",
+          "HSEP40",
+          "HSEP41",
+          "HSEP44"
+        ],
+        "top_c_only": [
+          "HSEP1",
+          "HSEP103",
+          "HSEP11",
+          "HSEP110",
+          "HSEP112",
+          "HSEP116",
+          "HSEP118",
+          "HSEP128",
+          "HSEP129",
+          "HSEP14"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 4573,
+          "sections": 13,
+          "lexical_diversity": 0.347,
+          "mean_sentence_length": 14.1
+        },
+        "c": {
+          "word_count": 3638,
+          "sections": 11,
+          "lexical_diversity": 0.384,
+          "mean_sentence_length": 14.9
+        },
+        "word_count_ratio": 0.8
+      },
+      "emphasis": {
+        "bold_count_a": 40,
+        "bold_count_c": 33,
+        "bold_jaccard": 0.106
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 100,
+          "causal_verbs": 13,
+          "modality": 10,
+          "uncertainty": 7,
+          "counterfactual": 5
+        },
+        "c": {
+          "thresholds": 68,
+          "causal_verbs": 9,
+          "modality": 11,
+          "uncertainty": 7,
+          "counterfactual": 2
+        }
+      },
+      "section_alignment": {
+        "headings_a": 14,
+        "headings_b": 12,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.714,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 19,
+        "claims_b": 19,
+        "novel_claims_a": 17,
+        "novel_claims_b": 18,
+        "novel_supported_a": 3,
+        "novel_supported_b": 3,
+        "novel_action_a": 8,
+        "novel_action_b": 10,
+        "cite_per_claim_a": 2.63,
+        "cite_per_claim_b": 2.68
+      }
+    },
+    "s23_A vs s23_C": {
+      "similarity": {
+        "cosine": 0.904,
+        "jaccard_unigram": 0.348,
+        "jaccard_bigram": 0.087,
+        "jaccard_trigram": 0.033
+      },
+      "citations": {
+        "count_a": 25,
+        "count_b": 39,
+        "shared": 14,
+        "a_only": 11,
+        "c_only": 25,
+        "jaccard": 0.28,
+        "density_a": 7.3,
+        "density_c": 10.7,
+        "top_a_only": [
+          "HSEP100",
+          "HSEP102",
+          "HSEP12",
+          "HSEP132",
+          "HSEP21",
+          "HSEP27",
+          "HSEP3",
+          "HSEP30",
+          "HSEP74",
+          "HSEP94"
+        ],
+        "top_c_only": [
+          "HSEP1",
+          "HSEP101",
+          "HSEP103",
+          "HSEP107",
+          "HSEP110",
+          "HSEP112",
+          "HSEP116",
+          "HSEP124",
+          "HSEP128",
+          "HSEP129"
+        ]
+      },
+      "structure": {
+        "a": {
+          "word_count": 3405,
+          "sections": 12,
+          "lexical_diversity": 0.39,
+          "mean_sentence_length": 14.1
+        },
+        "c": {
+          "word_count": 3638,
+          "sections": 11,
+          "lexical_diversity": 0.384,
+          "mean_sentence_length": 14.9
+        },
+        "word_count_ratio": 1.07
+      },
+      "emphasis": {
+        "bold_count_a": 23,
+        "bold_count_c": 33,
+        "bold_jaccard": 0.0
+      },
+      "decision_artifacts": {
+        "a": {
+          "thresholds": 92,
+          "causal_verbs": 10,
+          "modality": 7,
+          "uncertainty": 6,
+          "counterfactual": 4
+        },
+        "c": {
+          "thresholds": 68,
+          "causal_verbs": 9,
+          "modality": 11,
+          "uncertainty": 7,
+          "counterfactual": 2
+        }
+      },
+      "section_alignment": {
+        "headings_a": 13,
+        "headings_b": 12,
+        "heading_jaccard": 1.0,
+        "kendall_tau": -0.692,
+        "transitions_a": 1,
+        "transitions_b": 1
+      },
+      "claim_novelty": {
+        "claims_a": 17,
+        "claims_b": 19,
+        "novel_claims_a": 15,
+        "novel_claims_b": 19,
+        "novel_supported_a": 4,
+        "novel_supported_b": 3,
+        "novel_action_a": 7,
+        "novel_action_b": 10,
+        "cite_per_claim_a": 1.76,
+        "cite_per_claim_b": 2.68
+      }
+    }
+  },
+  "matrices": {
+    "cosine": [
+      [
+        0.0,
+        0.868,
+        0.946,
+        0.892,
+        0.959,
+        0.903,
+        0.954,
+        0.911,
+        0.952,
+        0.885
+      ],
+      [
+        0.868,
+        0.0,
+        0.905,
+        0.943,
+        0.875,
+        0.948,
+        0.888,
+        0.943,
+        0.896,
+        0.946
+      ],
+      [
+        0.946,
+        0.905,
+        0.0,
+        0.913,
+        0.948,
+        0.933,
+        0.946,
+        0.943,
+        0.951,
+        0.919
+      ],
+      [
+        0.892,
+        0.943,
+        0.913,
+        0.0,
+        0.899,
+        0.955,
+        0.893,
+        0.951,
+        0.919,
+        0.948
+      ],
+      [
+        0.959,
+        0.875,
+        0.948,
+        0.899,
+        0.0,
+        0.905,
+        0.959,
+        0.912,
+        0.952,
+        0.887
+      ],
+      [
+        0.903,
+        0.948,
+        0.933,
+        0.955,
+        0.905,
+        0.0,
+        0.909,
+        0.957,
+        0.925,
+        0.953
+      ],
+      [
+        0.954,
+        0.888,
+        0.946,
+        0.893,
+        0.959,
+        0.909,
+        0.0,
+        0.908,
+        0.951,
+        0.885
+      ],
+      [
+        0.911,
+        0.943,
+        0.943,
+        0.951,
+        0.912,
+        0.957,
+        0.908,
+        0.0,
+        0.931,
+        0.958
+      ],
+      [
+        0.952,
+        0.896,
+        0.951,
+        0.919,
+        0.952,
+        0.925,
+        0.951,
+        0.931,
+        0.0,
+        0.904
+      ],
+      [
+        0.885,
+        0.946,
+        0.919,
+        0.948,
+        0.887,
+        0.953,
+        0.885,
+        0.958,
+        0.904,
+        0.0
+      ]
+    ],
+    "jaccard_unigram": [
+      [
+        0.0,
+        0.349,
+        0.454,
+        0.355,
+        0.461,
+        0.381,
+        0.436,
+        0.391,
+        0.463,
+        0.367
+      ],
+      [
+        0.349,
+        0.0,
+        0.341,
+        0.389,
+        0.372,
+        0.39,
+        0.363,
+        0.376,
+        0.355,
+        0.378
+      ],
+      [
+        0.454,
+        0.341,
+        0.0,
+        0.322,
+        0.446,
+        0.377,
+        0.441,
+        0.385,
+        0.449,
+        0.359
+      ],
+      [
+        0.355,
+        0.389,
+        0.322,
+        0.0,
+        0.347,
+        0.393,
+        0.342,
+        0.376,
+        0.333,
+        0.37
+      ],
+      [
+        0.461,
+        0.372,
+        0.446,
+        0.347,
+        0.0,
+        0.381,
+        0.469,
+        0.381,
+        0.445,
+        0.371
+      ],
+      [
+        0.381,
+        0.39,
+        0.377,
+        0.393,
+        0.381,
+        0.0,
+        0.38,
+        0.412,
+        0.38,
+        0.397
+      ],
+      [
+        0.436,
+        0.363,
+        0.441,
+        0.342,
+        0.469,
+        0.38,
+        0.0,
+        0.378,
+        0.452,
+        0.361
+      ],
+      [
+        0.391,
+        0.376,
+        0.385,
+        0.376,
+        0.381,
+        0.412,
+        0.378,
+        0.0,
+        0.361,
+        0.386
+      ],
+      [
+        0.463,
+        0.355,
+        0.449,
+        0.333,
+        0.445,
+        0.38,
+        0.452,
+        0.361,
+        0.0,
+        0.348
+      ],
+      [
+        0.367,
+        0.378,
+        0.359,
+        0.37,
+        0.371,
+        0.397,
+        0.361,
+        0.386,
+        0.348,
+        0.0
+      ]
+    ],
+    "jaccard_bigram": [
+      [
+        0.0,
+        0.081,
+        0.153,
+        0.076,
+        0.15,
+        0.093,
+        0.136,
+        0.106,
+        0.151,
+        0.088
+      ],
+      [
+        0.081,
+        0.0,
+        0.082,
+        0.087,
+        0.094,
+        0.102,
+        0.09,
+        0.094,
+        0.083,
+        0.096
+      ],
+      [
+        0.153,
+        0.082,
+        0.0,
+        0.073,
+        0.152,
+        0.105,
+        0.148,
+        0.119,
+        0.158,
+        0.092
+      ],
+      [
+        0.076,
+        0.087,
+        0.073,
+        0.0,
+        0.077,
+        0.105,
+        0.08,
+        0.091,
+        0.078,
+        0.094
+      ],
+      [
+        0.15,
+        0.094,
+        0.152,
+        0.077,
+        0.0,
+        0.097,
+        0.157,
+        0.11,
+        0.141,
+        0.088
+      ],
+      [
+        0.093,
+        0.102,
+        0.105,
+        0.105,
+        0.097,
+        0.0,
+        0.1,
+        0.12,
+        0.098,
+        0.11
+      ],
+      [
+        0.136,
+        0.09,
+        0.148,
+        0.08,
+        0.157,
+        0.1,
+        0.0,
+        0.112,
+        0.151,
+        0.088
+      ],
+      [
+        0.106,
+        0.094,
+        0.119,
+        0.091,
+        0.11,
+        0.12,
+        0.112,
+        0.0,
+        0.114,
+        0.101
+      ],
+      [
+        0.151,
+        0.083,
+        0.158,
+        0.078,
+        0.141,
+        0.098,
+        0.151,
+        0.114,
+        0.0,
+        0.087
+      ],
+      [
+        0.088,
+        0.096,
+        0.092,
+        0.094,
+        0.088,
+        0.11,
+        0.088,
+        0.101,
+        0.087,
+        0.0
+      ]
+    ],
+    "jaccard_trigram": [
+      [
+        0.0,
+        0.031,
+        0.077,
+        0.026,
+        0.075,
+        0.039,
+        0.064,
+        0.046,
+        0.076,
+        0.037
+      ],
+      [
+        0.031,
+        0.0,
+        0.032,
+        0.032,
+        0.037,
+        0.041,
+        0.035,
+        0.035,
+        0.028,
+        0.036
+      ],
+      [
+        0.077,
+        0.032,
+        0.0,
+        0.027,
+        0.078,
+        0.046,
+        0.072,
+        0.052,
+        0.08,
+        0.038
+      ],
+      [
+        0.026,
+        0.032,
+        0.027,
+        0.0,
+        0.031,
+        0.046,
+        0.03,
+        0.033,
+        0.027,
+        0.034
+      ],
+      [
+        0.075,
+        0.037,
+        0.078,
+        0.031,
+        0.0,
+        0.042,
+        0.083,
+        0.047,
+        0.073,
+        0.039
+      ],
+      [
+        0.039,
+        0.041,
+        0.046,
+        0.046,
+        0.042,
+        0.0,
+        0.041,
+        0.052,
+        0.041,
+        0.046
+      ],
+      [
+        0.064,
+        0.035,
+        0.072,
+        0.03,
+        0.083,
+        0.041,
+        0.0,
+        0.05,
+        0.071,
+        0.036
+      ],
+      [
+        0.046,
+        0.035,
+        0.052,
+        0.033,
+        0.047,
+        0.052,
+        0.05,
+        0.0,
+        0.05,
+        0.04
+      ],
+      [
+        0.076,
+        0.028,
+        0.08,
+        0.027,
+        0.073,
+        0.041,
+        0.071,
+        0.05,
+        0.0,
+        0.033
+      ],
+      [
+        0.037,
+        0.036,
+        0.038,
+        0.034,
+        0.039,
+        0.046,
+        0.036,
+        0.04,
+        0.033,
+        0.0
+      ]
+    ],
+    "citation_jaccard": [
+      [
+        0.0,
+        0.313,
+        0.457,
+        0.393,
+        0.48,
+        0.333,
+        0.581,
+        0.404,
+        0.526,
+        0.358
+      ],
+      [
+        0.313,
+        0.0,
+        0.328,
+        0.493,
+        0.391,
+        0.406,
+        0.385,
+        0.333,
+        0.333,
+        0.403
+      ],
+      [
+        0.457,
+        0.328,
+        0.0,
+        0.317,
+        0.562,
+        0.327,
+        0.38,
+        0.288,
+        0.405,
+        0.281
+      ],
+      [
+        0.393,
+        0.493,
+        0.317,
+        0.0,
+        0.323,
+        0.455,
+        0.429,
+        0.444,
+        0.296,
+        0.448
+      ],
+      [
+        0.48,
+        0.391,
+        0.562,
+        0.323,
+        0.0,
+        0.382,
+        0.462,
+        0.298,
+        0.435,
+        0.311
+      ],
+      [
+        0.333,
+        0.406,
+        0.327,
+        0.455,
+        0.382,
+        0.0,
+        0.373,
+        0.478,
+        0.277,
+        0.48
+      ],
+      [
+        0.581,
+        0.385,
+        0.38,
+        0.429,
+        0.462,
+        0.373,
+        0.0,
+        0.36,
+        0.538,
+        0.37
+      ],
+      [
+        0.404,
+        0.333,
+        0.288,
+        0.444,
+        0.298,
+        0.478,
+        0.36,
+        0.0,
+        0.261,
+        0.385
+      ],
+      [
+        0.526,
+        0.333,
+        0.405,
+        0.296,
+        0.435,
+        0.277,
+        0.538,
+        0.261,
+        0.0,
+        0.28
+      ],
+      [
+        0.358,
+        0.403,
+        0.281,
+        0.448,
+        0.311,
+        0.48,
+        0.37,
+        0.385,
+        0.28,
+        0.0
+      ]
+    ],
+    "bold_jaccard": [
+      [
+        0.0,
+        0.09,
+        0.103,
+        0.023,
+        0.074,
+        0.04,
+        0.0,
+        0.082,
+        0.0,
+        0.091
+      ],
+      [
+        0.09,
+        0.0,
+        0.178,
+        0.016,
+        0.071,
+        0.054,
+        0.0,
+        0.126,
+        0.0,
+        0.096
+      ],
+      [
+        0.103,
+        0.178,
+        0.0,
+        0.028,
+        0.064,
+        0.049,
+        0.0,
+        0.149,
+        0.0,
+        0.052
+      ],
+      [
+        0.023,
+        0.016,
+        0.028,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.047,
+        0.0,
+        0.0
+      ],
+      [
+        0.074,
+        0.071,
+        0.064,
+        0.0,
+        0.0,
+        0.048,
+        0.011,
+        0.048,
+        0.029,
+        0.038
+      ],
+      [
+        0.04,
+        0.054,
+        0.049,
+        0.0,
+        0.048,
+        0.0,
+        0.0,
+        0.068,
+        0.0,
+        0.059
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.011,
+        0.0,
+        0.0,
+        0.0,
+        0.049,
+        0.0
+      ],
+      [
+        0.082,
+        0.126,
+        0.149,
+        0.047,
+        0.048,
+        0.068,
+        0.0,
+        0.0,
+        0.0,
+        0.106
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.029,
+        0.0,
+        0.049,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.091,
+        0.096,
+        0.052,
+        0.0,
+        0.038,
+        0.059,
+        0.0,
+        0.106,
+        0.0,
+        0.0
+      ]
+    ],
+    "heading_jaccard": [
+      [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "kendall_tau": [
+      [
+        0.0,
+        -0.733,
+        -0.733,
+        -0.733,
+        -0.733,
+        -0.733,
+        -0.733,
+        -0.733,
+        -0.733,
+        -0.733
+      ],
+      [
+        -0.733,
+        0.0,
+        -0.733,
+        -0.733,
+        -0.733,
+        -0.733,
+        -0.733,
+        -0.733,
+        -0.733,
+        -0.733
+      ],
+      [
+        -0.733,
+        -0.733,
+        0.0,
+        -0.714,
+        -0.714,
+        -0.714,
+        -0.714,
+        -0.714,
+        -0.714,
+        -0.714
+      ],
+      [
+        -0.733,
+        -0.733,
+        -0.714,
+        0.0,
+        -0.733,
+        -0.733,
+        -0.733,
+        -0.733,
+        -0.733,
+        -0.733
+      ],
+      [
+        -0.733,
+        -0.733,
+        -0.714,
+        -0.733,
+        0.0,
+        -0.765,
+        -0.765,
+        -0.765,
+        -0.765,
+        -0.765
+      ],
+      [
+        -0.733,
+        -0.733,
+        -0.714,
+        -0.733,
+        -0.765,
+        0.0,
+        -0.733,
+        -0.733,
+        -0.733,
+        -0.733
+      ],
+      [
+        -0.733,
+        -0.733,
+        -0.714,
+        -0.733,
+        -0.765,
+        -0.733,
+        0.0,
+        -0.75,
+        -0.75,
+        -0.75
+      ],
+      [
+        -0.733,
+        -0.733,
+        -0.714,
+        -0.733,
+        -0.765,
+        -0.733,
+        -0.75,
+        0.0,
+        -0.714,
+        -0.714
+      ],
+      [
+        -0.733,
+        -0.733,
+        -0.714,
+        -0.733,
+        -0.765,
+        -0.733,
+        -0.75,
+        -0.714,
+        0.0,
+        -0.692
+      ],
+      [
+        -0.733,
+        -0.733,
+        -0.714,
+        -0.733,
+        -0.765,
+        -0.733,
+        -0.75,
+        -0.714,
+        -0.692,
+        0.0
+      ]
+    ]
+  },
+  "response_profiles": {
+    "s7_A": {
+      "word_count": 3797,
+      "sections": 14,
+      "lexical_diversity": 0.38,
+      "mean_sentence_length": 13.2,
+      "citations": 33,
+      "bold_phrases": 39,
+      "decision_artifacts": {
+        "thresholds": 110,
+        "causal_verbs": 18,
+        "modality": 10,
+        "uncertainty": 5,
+        "counterfactual": 4
+      },
+      "da_total": 147,
+      "total_claims": 27,
+      "cite_per_claim": 1.22
+    },
+    "s7_C": {
+      "word_count": 4626,
+      "sections": 14,
+      "lexical_diversity": 0.349,
+      "mean_sentence_length": 15.6,
+      "citations": 55,
+      "bold_phrases": 58,
+      "decision_artifacts": {
+        "thresholds": 83,
+        "causal_verbs": 12,
+        "modality": 6,
+        "uncertainty": 5,
+        "counterfactual": 9
+      },
+      "da_total": 115,
+      "total_claims": 18,
+      "cite_per_claim": 3.06
+    },
+    "s59_A": {
+      "word_count": 3543,
+      "sections": 13,
+      "lexical_diversity": 0.384,
+      "mean_sentence_length": 13.8,
+      "citations": 34,
+      "bold_phrases": 68,
+      "decision_artifacts": {
+        "thresholds": 102,
+        "causal_verbs": 8,
+        "modality": 12,
+        "uncertainty": 3,
+        "counterfactual": 2
+      },
+      "da_total": 127,
+      "total_claims": 18,
+      "cite_per_claim": 1.89
+    },
+    "s59_C": {
+      "word_count": 4519,
+      "sections": 14,
+      "lexical_diversity": 0.345,
+      "mean_sentence_length": 17.4,
+      "citations": 45,
+      "bold_phrases": 5,
+      "decision_artifacts": {
+        "thresholds": 65,
+        "causal_verbs": 13,
+        "modality": 3,
+        "uncertainty": 13,
+        "counterfactual": 7
+      },
+      "da_total": 101,
+      "total_claims": 14,
+      "cite_per_claim": 3.21
+    },
+    "s101_A": {
+      "word_count": 4232,
+      "sections": 16,
+      "lexical_diversity": 0.378,
+      "mean_sentence_length": 13.9,
+      "citations": 41,
+      "bold_phrases": 48,
+      "decision_artifacts": {
+        "thresholds": 110,
+        "causal_verbs": 9,
+        "modality": 12,
+        "uncertainty": 6,
+        "counterfactual": 3
+      },
+      "da_total": 140,
+      "total_claims": 20,
+      "cite_per_claim": 2.05
+    },
+    "s101_C": {
+      "word_count": 4537,
+      "sections": 14,
+      "lexical_diversity": 0.352,
+      "mean_sentence_length": 14.5,
+      "citations": 35,
+      "bold_phrases": 39,
+      "decision_artifacts": {
+        "thresholds": 83,
+        "causal_verbs": 13,
+        "modality": 18,
+        "uncertainty": 7,
+        "counterfactual": 6
+      },
+      "da_total": 127,
+      "total_claims": 26,
+      "cite_per_claim": 1.35
+    },
+    "s173_A": {
+      "word_count": 3876,
+      "sections": 15,
+      "lexical_diversity": 0.391,
+      "mean_sentence_length": 13.2,
+      "citations": 35,
+      "bold_phrases": 41,
+      "decision_artifacts": {
+        "thresholds": 116,
+        "causal_verbs": 10,
+        "modality": 7,
+        "uncertainty": 4,
+        "counterfactual": 6
+      },
+      "da_total": 143,
+      "total_claims": 15,
+      "cite_per_claim": 2.33
+    },
+    "s173_C": {
+      "word_count": 4573,
+      "sections": 13,
+      "lexical_diversity": 0.347,
+      "mean_sentence_length": 14.1,
+      "citations": 33,
+      "bold_phrases": 40,
+      "decision_artifacts": {
+        "thresholds": 100,
+        "causal_verbs": 13,
+        "modality": 10,
+        "uncertainty": 7,
+        "counterfactual": 5
+      },
+      "da_total": 135,
+      "total_claims": 19,
+      "cite_per_claim": 1.74
+    },
+    "s23_A": {
+      "word_count": 3405,
+      "sections": 12,
+      "lexical_diversity": 0.39,
+      "mean_sentence_length": 14.1,
+      "citations": 25,
+      "bold_phrases": 23,
+      "decision_artifacts": {
+        "thresholds": 92,
+        "causal_verbs": 10,
+        "modality": 7,
+        "uncertainty": 6,
+        "counterfactual": 4
+      },
+      "da_total": 119,
+      "total_claims": 17,
+      "cite_per_claim": 1.47
+    },
+    "s23_C": {
+      "word_count": 3638,
+      "sections": 11,
+      "lexical_diversity": 0.384,
+      "mean_sentence_length": 14.9,
+      "citations": 39,
+      "bold_phrases": 33,
+      "decision_artifacts": {
+        "thresholds": 68,
+        "causal_verbs": 9,
+        "modality": 11,
+        "uncertainty": 7,
+        "counterfactual": 2
+      },
+      "da_total": 97,
+      "total_claims": 19,
+      "cite_per_claim": 2.05
+    }
+  },
+  "seed_novelty": [
+    {
+      "claims_a": 27,
+      "claims_b": 18,
+      "novel_claims_a": 24,
+      "novel_claims_b": 18,
+      "novel_supported_a": 3,
+      "novel_supported_b": 5,
+      "novel_action_a": 10,
+      "novel_action_b": 6,
+      "cite_per_claim_a": 1.44,
+      "cite_per_claim_b": 4.11
+    },
+    {
+      "claims_a": 18,
+      "claims_b": 14,
+      "novel_claims_a": 18,
+      "novel_claims_b": 13,
+      "novel_supported_a": 2,
+      "novel_supported_b": 4,
+      "novel_action_a": 12,
+      "novel_action_b": 3,
+      "cite_per_claim_a": 2.61,
+      "cite_per_claim_b": 5.36
+    },
+    {
+      "claims_a": 20,
+      "claims_b": 26,
+      "novel_claims_a": 17,
+      "novel_claims_b": 21,
+      "novel_supported_a": 2,
+      "novel_supported_b": 6,
+      "novel_action_a": 11,
+      "novel_action_b": 14,
+      "cite_per_claim_a": 2.95,
+      "cite_per_claim_b": 2.31
+    },
+    {
+      "claims_a": 15,
+      "claims_b": 19,
+      "novel_claims_a": 13,
+      "novel_claims_b": 18,
+      "novel_supported_a": 4,
+      "novel_supported_b": 4,
+      "novel_action_a": 6,
+      "novel_action_b": 9,
+      "cite_per_claim_a": 2.67,
+      "cite_per_claim_b": 2.63
+    },
+    {
+      "claims_a": 17,
+      "claims_b": 19,
+      "novel_claims_a": 15,
+      "novel_claims_b": 19,
+      "novel_supported_a": 4,
+      "novel_supported_b": 3,
+      "novel_action_a": 7,
+      "novel_action_b": 10,
+      "cite_per_claim_a": 1.76,
+      "cite_per_claim_b": 2.68
+    }
+  ]
+}

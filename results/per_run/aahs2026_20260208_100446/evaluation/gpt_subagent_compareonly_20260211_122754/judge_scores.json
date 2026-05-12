@@ -1,0 +1,74 @@
+[
+  {
+    "condition": "condition_a",
+    "run": 1,
+    "eval": 1,
+    "cross_abstract_inference": 5,
+    "epistemic_stratification": 4,
+    "falsifiability_yield": 4,
+    "corpus_coverage": 5,
+    "assumption_surfacing": 4,
+    "decision_readiness": 5,
+    "composite": 4.5
+  },
+  {
+    "condition": "condition_c",
+    "run": 1,
+    "eval": 1,
+    "cross_abstract_inference": 5,
+    "epistemic_stratification": 5,
+    "falsifiability_yield": 4,
+    "corpus_coverage": 5,
+    "assumption_surfacing": 5,
+    "decision_readiness": 4,
+    "composite": 4.67
+  },
+  {
+    "condition": "condition_a",
+    "run": 1,
+    "eval": 2,
+    "cross_abstract_inference": 4,
+    "epistemic_stratification": 4,
+    "falsifiability_yield": 4,
+    "corpus_coverage": 5,
+    "assumption_surfacing": 4,
+    "decision_readiness": 5,
+    "composite": 4.33
+  },
+  {
+    "condition": "condition_c",
+    "run": 1,
+    "eval": 2,
+    "cross_abstract_inference": 5,
+    "epistemic_stratification": 5,
+    "falsifiability_yield": 5,
+    "corpus_coverage": 4,
+    "assumption_surfacing": 5,
+    "decision_readiness": 4,
+    "composite": 4.67
+  },
+  {
+    "condition": "condition_a",
+    "run": 1,
+    "eval": 3,
+    "cross_abstract_inference": 5,
+    "epistemic_stratification": 4,
+    "falsifiability_yield": 4,
+    "corpus_coverage": 5,
+    "assumption_surfacing": 4,
+    "decision_readiness": 5,
+    "composite": 4.5
+  },
+  {
+    "condition": "condition_c",
+    "run": 1,
+    "eval": 3,
+    "cross_abstract_inference": 5,
+    "epistemic_stratification": 5,
+    "falsifiability_yield": 5,
+    "corpus_coverage": 4,
+    "assumption_surfacing": 5,
+    "decision_readiness": 4,
+    "composite": 4.67
+  }
+]

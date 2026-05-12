@@ -1,0 +1,39 @@
+# conference config template
+#
+# copy this file to conferences/{slug}.toml and fill in all fields.
+# the slug is used as the --conference argument and tags experiment dirs.
+#
+# then run: python -m scripts.experiment.run --conference {slug}
+
+[conference]
+name = "Full Conference Name"             # e.g. "American Association for Hand Surgery"
+abbreviation = "ABBR"                     # e.g. "AAHS"
+year = 2026
+event = "Annual Meeting"                  # e.g. "Annual Meeting", "World Congress"
+dates = "Month DD–DD"                     # e.g. "January 13–17"
+location = "City, ST"                     # e.g. "Chula Vista, CA"
+
+[corpus]
+# path to the index.json file (relative to repo root)
+# must be an array of objects with at minimum:
+#   id, title, authors, affiliations, abstract_text, sections, url, type
+index_path = "data/yourconf_index.json"
+
+[domain]
+field = "your specialty"                  # e.g. "hand and upper extremity surgery"
+audience = "a practicing specialist"      # e.g. "a practicing hand surgeon and active researcher"
+
+# special topics get extra attention in the naive prompt.
+# omit this section entirely if no special topics apply.
+# [[domain.special_topics]]
+# name = "WALANT"
+# full_name = "wide awake local anesthesia no tourniquet"
+# attention = "what to look for regarding this topic"
+
+[topics]
+# keyword buckets for stratified sampling of the excavate subset.
+# each key is a topic name, value is a list of keyword stems/phrases.
+# keyword matching is case-insensitive against title + abstract text.
+# omit this section entirely for pure random sampling (no stratification).
+#
+# example_topic = ["keyword1", "keyword2", "partial_stem"]

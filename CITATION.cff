@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Who Prefers Structured Reasoning? AI Judges Do, Domain Experts Don't"
+message: "If you use this repository, please cite the paper."
+type: software
+authors:
+  - family-names: Rubin
+    given-names: Jordan
+repository-code: "https://github.com/jordanrubin/who-prefers-structured-reasoning"
+abstract: >-
+  Code, configurations, epistemic-operation prompts, and aggregated evaluation
+  scores for the paper "Who Prefers Structured Reasoning? AI Judges Do, Domain
+  Experts Don't" — a study showing that a cognitively-scaffolded LLM corpus-
+  synthesis pipeline produces large, cross-model LLM-as-judge gains that blinded
+  domain experts do not perceive, exposing a structural failure mode in rubric-
+  based synthesis evaluation.
+keywords:
+  - large language models
+  - LLM-as-judge
+  - evaluation
+  - structured prompting
+  - corpus synthesis
+license: MIT

@@ -1,0 +1,57 @@
+{
+  "condition": "C-ant",
+  "ablation": "minus_antithesize",
+  "evals": [
+    {
+      "condition": "C-ant",
+      "ablation": "minus_antithesize",
+      "eval": 1,
+      "scores": {
+        "cross_abstract_inference": 3,
+        "epistemic_stratification": 3,
+        "falsifiability_yield": 2,
+        "corpus_coverage": 4,
+        "assumption_surfacing": 3,
+        "decision_readiness": 4
+      },
+      "composite": 3.17
+    },
+    {
+      "condition": "C-ant",
+      "ablation": "minus_antithesize",
+      "eval": 2,
+      "scores": {
+        "cross_abstract_inference": 4,
+        "epistemic_stratification": 4,
+        "falsifiability_yield": 3,
+        "corpus_coverage": 5,
+        "assumption_surfacing": 4,
+        "decision_readiness": 4
+      },
+      "composite": 4.0
+    },
+    {
+      "condition": "C-ant",
+      "ablation": "minus_antithesize",
+      "eval": 3,
+      "scores": {
+        "cross_abstract_inference": 4,
+        "epistemic_stratification": 4,
+        "falsifiability_yield": 3,
+        "corpus_coverage": 4,
+        "assumption_surfacing": 4,
+        "decision_readiness": 4
+      },
+      "composite": 3.83
+    }
+  ],
+  "averages": {
+    "cross_abstract_inference": 3.67,
+    "epistemic_stratification": 3.67,
+    "falsifiability_yield": 2.67,
+    "corpus_coverage": 4.33,
+    "assumption_surfacing": 3.67,
+    "decision_readiness": 4.0,
+    "composite": 3.67
+  }
+}

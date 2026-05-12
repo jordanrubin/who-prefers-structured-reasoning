@@ -1,0 +1,81 @@
+[conference]
+name = "American Association for Hand Surgery"
+abbreviation = "AAHS"
+year = 2026
+event = "Annual Meeting"
+dates = "January 13–17"
+location = "Chula Vista, CA"
+
+[corpus]
+index_path = "data/aahs2026_index.json"
+
+[domain]
+field = "hand and upper extremity surgery"
+audience = "a practicing hand surgeon and active researcher"
+
+[[domain.special_topics]]
+name = "WALANT"
+full_name = "wide awake local anesthesia no tourniquet"
+attention = "new indications, outcomes data, adoption trends, or any evidence that shifts the conversation about where wide awake local anesthesia no tourniquet is headed"
+
+[topics]
+fracture = [
+    "fracture", "fixation", "osteotomy", "nonunion", "malunion",
+    "plate", "screw", "nail", "olecranon", "radius fracture",
+    "metacarpal fracture", "phalanx fracture", "scaphoid",
+]
+carpal_tunnel = [
+    "carpal tunnel", "median nerve", "cts", "endoscopic release",
+]
+nerve = [
+    "nerve repair", "nerve transfer", "nerve graft", "neuropathy",
+    "cubital tunnel", "ulnar nerve", "brachial plexus", "neurectomy",
+    "denervation",
+]
+tendon = [
+    "tendon repair", "tendon transfer", "flexor tendon", "extensor tendon",
+    "trigger finger", "tenosynovitis", "mallet finger", "pulvertaft",
+    "tendon rupture",
+]
+thumb_cmc = [
+    "thumb", "carpometacarpal", "cmc", "trapeziectomy", "basal joint",
+]
+arthritis_arthroplasty = [
+    "arthritis", "arthroplasty", "pyrocarbon", "silicone implant",
+    "arthrodesis", "denervation", "osteoarthritis", "rheumatoid",
+    "dupuytren",
+]
+wrist = [
+    "scapholunate", "kienbock", "lunate", "druj", "wrist pain",
+    "wrist arthroscopy", "radiocarpal", "four-corner", "proximal row",
+    "wafer",
+]
+pediatric = [
+    "pediatric", "children", "adolescent", "birth injury", "congenital",
+    "mucopolysaccharidosis",
+]
+microsurgery_flap = [
+    "replantation", "free flap", "microsurg", "flap", "revascular",
+    "gracilis", "digit amputation", "limb salvage",
+]
+biomechanics = [
+    "biomechani", "cadaveric", "finite element", "mechanical analysis",
+    "stress-strain",
+]
+outcomes_economics = [
+    "reimbursement", "medicare", "medicaid", "cost analysis",
+    "value-driven", "crowdfunding", "disparities", "equity",
+    "socioeconomic",
+]
+ai_ml = [
+    "artificial intelligence", "machine learning", "deep learning",
+    "chatgpt", "ai-driven", "ai-based", "wearable sensor",
+]
+pain_opioid = [
+    "opioid", "pain", "cannabidiol", "corticosteroid injection",
+    "botox", "hyperhidrosis",
+]
+infection = [
+    "infection", "mrsa", "staphylococcus", "candida", "xylazine",
+    "antibiotic",
+]

@@ -1,0 +1,29 @@
+{
+  "condition_a": {
+    "eval_count": 3,
+    "mean_total": 18.67,
+    "dimension_means": {
+      "cross_abstract_inference": 4.0,
+      "epistemic_stratification": 2.67,
+      "falsifiability_yield": 2.0,
+      "corpus_coverage": 4.33,
+      "assumption_surfacing": 3.0,
+      "decision_readiness": 2.67
+    }
+  },
+  "condition_c": {
+    "eval_count": 3,
+    "mean_total": 26.33,
+    "dimension_means": {
+      "cross_abstract_inference": 5.0,
+      "epistemic_stratification": 4.33,
+      "falsifiability_yield": 4.0,
+      "corpus_coverage": 4.0,
+      "assumption_surfacing": 5.0,
+      "decision_readiness": 4.0
+    }
+  },
+  "generated_by": "Codex (GPT-5 in-session subagent workflow)",
+  "source_type": "fresh_gpt_subagent_judgment",
+  "scoring_method": "manual_gpt_rubric_pass_v1"
+}

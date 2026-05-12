@@ -1,0 +1,109 @@
+[conference]
+name = "International Conference on Learning Representations"
+abbreviation = "ICLR"
+year = 2025
+event = "Oral Presentations"
+dates = "April 24–28"
+location = "Singapore"
+
+[corpus]
+index_path = "data/iclr2025_oral_index.json"
+
+[domain]
+field = "machine learning and artificial intelligence research"
+audience = "an ML researcher and practitioner"
+
+[[domain.special_topics]]
+name = "LLMs and scaling"
+full_name = "large language models and scaling laws"
+attention = "new architectures, training efficiency, emergent capabilities, scaling phenomena, or anything that shifts understanding of foundation model behavior"
+
+[[domain.special_topics]]
+name = "safety and alignment"
+full_name = "AI safety, alignment, fairness, and privacy"
+attention = "new alignment techniques, safety evaluations, robustness guarantees, fairness methods, or evidence that changes how we think about responsible AI deployment"
+
+[topics]
+foundation_models = [
+    "language model", "large language", "llm", "transformer",
+    "pretraining", "pre-training", "fine-tuning", "in-context learning",
+    "scaling", "foundation model", "frontier model",
+]
+vision_language = [
+    "vision-language", "multimodal", "visual question", "image-text",
+    "video understanding", "visual reasoning", "object detection",
+    "image generation", "diffusion model", "text-to-image",
+]
+generative_models = [
+    "generative", "diffusion", "flow matching", "variational",
+    "autoregressive", "gan", "vae", "score-based", "sampling",
+    "denoising",
+]
+alignment_safety = [
+    "alignment", "safety", "fairness", "privacy", "differential privacy",
+    "robustness", "adversarial", "jailbreak", "red teaming",
+    "reward model", "rlhf", "trustworthy",
+]
+datasets_benchmarks = [
+    "benchmark", "dataset", "evaluation", "leaderboard",
+    "data curation", "annotation", "data quality",
+]
+reinforcement_learning = [
+    "reinforcement learning", "reward", "policy optimization",
+    "multi-agent", "offline rl", "exploration", "planning",
+    "decision making", "markov",
+]
+representation_learning = [
+    "representation learning", "self-supervised", "contrastive",
+    "embedding", "feature learning", "disentangle", "latent space",
+]
+scientific_ml = [
+    "scientific", "physics-informed", "molecular", "protein",
+    "drug discovery", "climate", "material", "pde", "dynamical system",
+    "simulation",
+]
+interpretability = [
+    "interpretab", "explainab", "mechanistic", "feature attribution",
+    "saliency", "concept bottleneck", "probing", "circuit",
+]
+learning_theory = [
+    "learning theory", "generalization", "sample complexity",
+    "convergence", "pac learning", "information theory", "statistical",
+    "approximation theory",
+]
+optimization = [
+    "optimization", "gradient descent", "adam", "learning rate",
+    "stochastic", "convex", "non-convex", "loss landscape",
+]
+graphs_geometry = [
+    "graph neural", "gnn", "geometric", "point cloud", "mesh",
+    "equivariant", "topology", "manifold",
+]
+robotics_planning = [
+    "robot", "embodied", "manipulation", "navigation", "autonomous",
+    "control", "locomotion", "world model",
+]
+neuroscience = [
+    "neuroscience", "brain", "neural coding", "cognitive",
+    "spiking neural", "eeg", "fmri",
+]
+probabilistic = [
+    "probabilistic", "bayesian", "uncertainty", "gaussian process",
+    "monte carlo", "posterior", "inference",
+]
+neurosymbolic = [
+    "neurosymbolic", "symbolic", "reasoning", "logic", "program synthesis",
+    "formal verification", "theorem proving",
+]
+transfer_meta = [
+    "transfer learning", "domain adaptation", "meta-learning",
+    "few-shot", "zero-shot", "distribution shift", "out-of-distribution",
+]
+causal = [
+    "causal", "causality", "counterfactual", "intervention",
+    "structural equation",
+]
+time_series = [
+    "time series", "temporal", "forecasting", "sequence model",
+    "recurrent",
+]

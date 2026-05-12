@@ -1,0 +1,76 @@
+[conference]
+name = "Association of the United States Army"
+abbreviation = "AUSA"
+year = 2025
+event = "Annual Reporting"
+dates = "January–December"
+location = "Washington, DC"
+
+[corpus]
+index_path = "data/ausa2025_news_index.json"
+
+[domain]
+field = "U.S. Army policy, modernization, and defense readiness"
+audience = "a defense professional tracking Army transformation and readiness"
+
+[[domain.special_topics]]
+name = "Army transformation"
+full_name = "continuous transformation of Army force structure, doctrine, and acquisition"
+attention = "reorganization of commands, new unit activations, doctrinal shifts, or anything that changes how the Army fights, trains, or equips"
+
+[[domain.special_topics]]
+name = "drones and counter-UAS"
+full_name = "integration of unmanned aerial systems and counter-drone capabilities"
+attention = "new drone units, counter-UAS task forces, loitering munitions, operator courses, or lessons from Ukraine shaping Army drone doctrine"
+
+[topics]
+transformation = [
+    "transform", "moderniz", "reorganiz", "restructur",
+    "force design", "continuous transformation", "force structure",
+]
+recruiting_talent = [
+    "recruit", "retention", "enlist", "talent management",
+    "mos", "career path", "promotion", "end strength",
+    "branch transfer",
+]
+drones_counteruas = [
+    "drone", "uas", "unmanned", "counter-drone", "counter-uas",
+    "loitering", "stalker", "first-person view",
+]
+h2f_readiness = [
+    "fitness", "holistic health", "h2f", "nutrition",
+    "acft", "body composition", "sleep", "resilience",
+    "mental health",
+]
+indo_pacific = [
+    "indo-pacific", "lanpac", "pacific", "usarpac",
+    "25th infantry", "korea", "japan",
+]
+europe_nato = [
+    "nato", "europe", "landeuro", "baltic", "ukraine",
+    "allied", "allies", "v corps", "interoperab",
+]
+installations_qol = [
+    "installation", "barracks", "housing", "tricare",
+    "spouse", "family", "pcs", "child care",
+    "quality of life", "dining", "campus",
+]
+acquisition_industry = [
+    "acquis", "contract", "procurement", "industry",
+    "industrial base", "vendor", "manufactur", "supply chain",
+]
+innovation_tech = [
+    "innovat", "digital", "artificial intelligence",
+    "cyber", "software", "nuclear energy", "space",
+    "3d-print", "autonomous", "robotic", "fires",
+    "aviation", "himars", "helicopter",
+]
+recruiting_outreach = [
+    "rotc", "jrotc", "cadet", "west point",
+    "army reserve", "national guard", "guard",
+]
+ausa_institutional = [
+    "ausa", "scholarship", "marshall medal", "graphic novel",
+    "podcast", "webinar", "annual meeting", "global force",
+    "chapter", "award recipient",
+]

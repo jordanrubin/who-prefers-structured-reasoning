@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# corpora are not redistributed here — rebuild with scripts/scrapers/ (see data/README.md)
+data/raw/
+data/*_index.json
+data/abstracts/
+data/eposters/
+data/fulltext/
+data/pubmed_matches.json
+
+# new experiment runs (this repo ships aggregated scores only; see results/)
+data/experiments/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+texput.log
